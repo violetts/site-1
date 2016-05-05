@@ -1,0 +1,120 @@
+body,
+.card-wrapper {
+    font-family: roboto;
+}
+
+.card-wrapper {
+    width: 370px;
+    background: #fff;
+    margin: 0 auto;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 0px 2px #737171;
+}
+
+.card-picture {
+    display: block;
+    width: auto;
+    min-height: 222px;
+    background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+
+.card-content,
+.card-social {
+    padding: 30px;
+    line-height: 1.8em;
+}
+
+.card-content {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.p-header {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.circle-coffee {
+    background-color: #7986cb;
+    border-radius: 50%/50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 180px;
+    left: 625px;
+    box-shadow: 0px 4px 8px #737171;
+}
+
+.fa-coffee {
+    color: #fff;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.card-picture {
+    margin-bottom: 30px;
+}
+
+button {
+    display: block;
+    padding: 10px 20px;
+    background: #fff;
+    text-transform: uppercase;
+    color: #f9b322;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #e0e0e0;
+    margin: 0 auto;
+}
+
+button:before,
+button:after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #e0e0e0;
+    width: 76px;
+    position: relative;
+}
+
+button:before {
+    left: 194px;
+    bottom: -9px;
+}
+
+button:after {
+    right: 97px;
+    bottom:9px;
+}
+
+.fa-arrow-right {
+    padding-left: 5px;
+}
+
+.avatar {
+    float: left;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%/50%;
+    background-color: #bdbdbd;
+    margin-top: 8px;
+}
+
+.avatar-status {
+    float: right;
+    width: 80%;
+    font-size: 13px;
+    color: #bdbdbd;
+    line-height: 1.8em;
+}
+
+.fa-comment {
+    padding-left: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
