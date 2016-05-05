@@ -1,6 +1,6 @@
 body,
 .card-wrapper {
-    font-family: 'roboto', 'sans-serif';
+    font-family: 'roboto', sans-serif;
 }
 
 .card-wrapper {
@@ -35,7 +35,7 @@ body,
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    font-family: 'roboto_slabregular';
+    font-family: 'roboto_slabregular', sans-serif;
 }
 
 .circle-coffee {
