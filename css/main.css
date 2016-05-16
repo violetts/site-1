@@ -2,7 +2,6 @@ body,
 p {
      font-family: 'roboto', sans-serif;
      font-size:14px;
-     line-height: 1.8em;
 }
 
 .column {
@@ -102,8 +101,13 @@ p {
 .card-footer__meta {
     float: right;
     width: 80%;
-    font-size: 13px;
     color: #bdbdbd;
+}
+
+.card-footer__meta--date,
+.card-footer__meta--stat,
+.card-footer__meta--other {
+    font-size: 12px;
     line-height: 0.4em;
 }
 
