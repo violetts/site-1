@@ -1,16 +1,35 @@
+body {
+    background-color:#fafafa;
+}
+
 body,
 p {
      font-family: 'roboto', sans-serif;
      font-size:14px;
 }
 
+ol,
+li {
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+
+li {
+    display:inline-block;
+}
+
 .column {
     width: 370px;
     margin: 0 auto;
-    background: #fff;
+}
+
+.row {
+    padding:60px 0px;
 }
 
 .card-wrapper {
+    background: #fff;
     border: 1px solid #e0e0e0;
     box-shadow: 0px 0px 2px #737171;
 }
@@ -118,3 +137,36 @@ p {
 .clearfix {
     clear: both;
 }
+
+
+/**
+ * pagination styles
+ */
+
+.block-pagination {
+    width:auto;
+}
+
+.pagination {
+    width:100%;
+    text-align: center;
+    margin:0 auto;
+    font-size:24px;
+}
+
+.pagination__item {
+    padding:0px 25px;
+}
+
+.pagination__item--active {
+    background-color: #ffa726;
+    border-radius: 50%/50%;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.pagination__item-arrow {
+    vertical-align: middle
+}
+
+
