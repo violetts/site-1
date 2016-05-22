@@ -8,6 +8,10 @@ p {
      font-size:14px;
 }
 
+h2 {
+    margin:0px;
+}
+
 ul,
 ol,
 li {
@@ -21,20 +25,20 @@ li {
  * grid
  */
 
-.container {
-    margin:0px auto;
+.cards-list {
+    margin:0 auto;
 }
 
-.row {
-    padding: 35px 0px;
-    text-align: center;
-}
-
-.column {
-    max-width:370px;
+.cards-list__item {
+    max-width: 370px;
     display: inline-block;
-    margin: 10px;
-    box-sizing: border-box;
+    vertical-align: top;
+    padding: 35px 0px;
+    margin: 0px 25px -40px 0px;
+}
+
+.cards-list__item:nth-child(3n+3) {
+    margin-right: 0px;
 }
 
 
@@ -42,14 +46,13 @@ li {
  * card-styles
  */
 
-
-.card-wrapper {
+.card {
     background: #fff;
     border: 1px solid #e0e0e0;
     box-shadow: 0px 0px 2px #737171;
 }
 
-.card-header {
+.card__header {
     display: block;
     width: auto;
     min-height: 222px;
@@ -57,99 +60,118 @@ li {
     margin-bottom: 30px;
 }
 
-.card-content,
-.card-footer {
-    padding: 30px;
+.card__content,
+.card__footer {
     line-height: 1.8em;
 }
 
-.card-content {
+.card__content {
+    padding: 30px;
     font-size: 15px;
-    padding-bottom: 10px;
 }
 
-.card-content__header {
+.content__title {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
     font-family: 'roboto_slabregular', sans-serif;
+    margin-bottom:22px;
 }
     
-.icon {
+.card__icon {
+    position: relative;
     border-radius: 50%;
-    width: 110px;
-    height: 110px;
-    line-height: 110px;
+    width: 100px;
+    height: 100px;
     box-shadow: 0px 4px 8px #737171;
     text-align: center;
 }
 
-.icon--center {
+.icon-img  {
+    position: absolute;
+    transform: translate(-50%, 54%);
+}
+
+.card__icon--center {
     margin: -80px auto -5px;
 }
 
-.icon--coffee {
+.card__icon--coffee {
     background-color: #7986cb;
     color: #fff;
 }
 
-.card-link__link-more {
-    display: block;
-    padding: 10px 20px;
-    text-align: center;
+.card__link {
+    border-bottom: 1px solid #e0e0e0;
+    width: auto;
+    margin-top: -38px;
+}
+
+.link-more {
+    display: inline-block;
+    padding: 8px 18px;
+    height: 20px;
     background: #fff;
     text-transform: uppercase;
     color: #f9b322;
     font-size: 15px;
     font-weight: 600;
     border: 1px solid #e0e0e0;
-    margin: -20px auto -20px auto;
+    transform: translate(42%, 48%);
     text-decoration: none;
-    width:50%;
 }
 
-.card-link {
-    border-bottom: 1px solid #e0e0e0;
-    width: auto;
-    margin:30px 0px 30px 0px;
+.link-more--arrow {
+    padding-right: 5px;
 }
 
-.fa-arrow-right {
-    /*ширина для создания дополнительного отступа*/
-    width: 15px;
+.card__footer {
+    padding: 30px 30px 24px;
 }
 
-.card-footer__avatar {
+.avatar-layout {
+   float: left;
+   margin: 18px 12px 5px 0px;
+}
+
+.avatar {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     background-color: #bdbdbd;
     overflow:hidden;
 }
 
-.card-footer__avatar-position {
-   float: left;
-   margin: 14px 15px 14px 0px;
-}
-
-.avatar-img,
-card-footer__avatar-img {
+.avatar__img {
     width:100%;
 }
 
-.card-footer__meta {
-    float: left;
+.meta {
     color: #bdbdbd;
     font-size:12px;
+    overflow: hidden;
 }
 
-.card-footer__meta-item {
+.meta__title {
+    font-size:12px;
+    margin-bottom: -1.5px;
+}
+
+.meta__item {
     text-align: left;
 }
 
-.fa-comment {
-    padding-left: 20px;
+.meta__item-heart {
+    padding: 0px 6px 0px 0px;
+}
+
+.meta__item-comment{
+    padding: 0px 6px 0px 26px;
+}
+
+.meta__item-comment-tag {
+    padding: 0px 8px 0px 0px;
 }
 
 .clearfix:after,
@@ -166,17 +188,21 @@ card-footer__avatar-img {
 /**
  * pagination styles
  */
-.pagination {
+
+.card-list__pagination {
     width:100%;
+    margin: 66px 0px 0px 0px;
+}
+
+.pagination {
     text-align: center;
-    margin:0 auto;
     font-size:24px;
 }
 
 .pagination__numbers {
     display: inline-block;
     vertical-align: middle;
-    margin: 0 20px;
+    margin: 0 40px;
 }
 
 .pagination__arrow {
@@ -190,8 +216,8 @@ card-footer__avatar-img {
 
 .pagination__number {
     display:inline-block;
-    width: 50px;
-    height: 50px;
+    width: 58px;
+    height: 58px;
     border-radius: 50%;
     line-height: 50px;
     text-align: center;
@@ -220,7 +246,7 @@ card-footer__avatar-img {
  */
 
 @media (max-width: 480px) {
-  .container {
+  .cards-list {
     width:360px;  
   }
     .row {
@@ -229,22 +255,20 @@ card-footer__avatar-img {
 }
 
 @media (min-width: 768px) {
-  .container {
+  .cards-list {
     width:700px;  
   }
-    .row {
-     padding: 10px 0px;
-    }
+   
 }
 
 @media (min-width: 980px) {
-  .container {
+  .cards-list {
     width: 800px;
   }
 }
 
 @media (min-width: 1380px) {
-  .container {
+  .cards-list {
     width: 1178px;
   }
 }
