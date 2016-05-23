@@ -77,7 +77,11 @@ li {
     font-family: 'roboto_slabregular', sans-serif;
     margin-bottom:22px;
 }
-    
+  
+.content__description {
+    margin:0px;
+}
+
 .card__icon {
     position: relative;
     border-radius: 50%;
@@ -87,7 +91,7 @@ li {
     text-align: center;
 }
 
-.icon-img  {
+.card__icon-img  {
     position: absolute;
     transform: translate(-50%, 54%);
 }
@@ -104,10 +108,10 @@ li {
 .card__link {
     border-bottom: 1px solid #e0e0e0;
     width: auto;
-    margin-top: -38px;
+    margin-top: -23px;
 }
 
-.link-more {
+.link__link-more {
     display: inline-block;
     padding: 8px 18px;
     height: 20px;
@@ -121,15 +125,15 @@ li {
     text-decoration: none;
 }
 
-.link-more--arrow {
-    padding-right: 5px;
+.link__link-more--arow {
+    padding-left: 5px;
 }
 
 .card__footer {
     padding: 30px 30px 24px;
 }
 
-.avatar-layout {
+.card__avatar-layout {
    float: left;
    margin: 18px 12px 5px 0px;
 }
@@ -147,7 +151,7 @@ li {
     width:100%;
 }
 
-.meta {
+.card__meta {
     color: #bdbdbd;
     font-size:12px;
     overflow: hidden;
