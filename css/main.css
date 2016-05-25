@@ -10,6 +10,10 @@ p {
      font-size:14px;
 }
 
+p {
+    margin:0px;
+}
+
 h2 {
     margin:0px;
 }
@@ -29,6 +33,7 @@ a {
 /**
  * grid
 */
+.header,
 .menu,
 .logo,
 .topheader,
@@ -154,7 +159,7 @@ a {
 
 .menu {
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px 0px 25px;
 }
 
 .menu__item {
@@ -181,14 +186,70 @@ a.menu__link.menu__link-active:after {
     display: inline-block;
     border-bottom: 3px solid #ffa726;
     position: absolute;
-    width: 69px;
+    width: 75px;
     top: 40px;
-    right: 7px;
+    right: 4px;
 }
+
+
+/**
+ * header 
+ */
+.page__header {
+    background-color:#757575;
+    padding:60px 0px;
+}
+
+.header__slider {
+    height: 704px;
+    position: relative
+}
+
+.slider__nav {
+    color:#fff;
+    position: absolute;
+    font-size: 40px;
+    top: 329px;
+}
+
+.slider__nav--left {
+    left:24px;
+}
+
+.slider__nav--right {
+    right:24px
+}
+
+.slider__tile {
+    height: 100px;
+    background-color: #5e5e5e;
+    padding: 30px;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    transform: translate(0%,605%);
+    box-sizing: border-box;
+    opacity: 0.85;
+}
+
+.tile__category {
+    font-size: 12px;
+}
+
+.tile__title {
+    font-family: 'roboto_slabregular', sans-serif;
+    font-size: 20px;
+}
+
+
+
 
 /**
  * card-styles
  */
+.page__content {
+    padding: 45px 0px;
+}
 
 .card {
     background: #fff;
@@ -401,6 +462,7 @@ a.menu__link.menu__link-active:after {
 }
 
 @media (min-width: 768px) {
+    .header,
     .menu,
     .logo,
     .topheader,
@@ -411,6 +473,7 @@ a.menu__link.menu__link-active:after {
 }
 
 @media (min-width: 980px) {
+  .header,
   .menu,
   .logo,
   .topheader,    
@@ -419,12 +482,13 @@ a.menu__link.menu__link-active:after {
   }
 }
 
-@media (min-width: 1380px) {
+@media (min-width: 1280px) {
+  .header,    
   .menu,    
   .logo,    
   .topheader,    
   .cards-list {
-    width: 1178px;
+    width: 1170px;
   }
 }
 
