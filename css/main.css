@@ -37,7 +37,9 @@ a {
 .menu,
 .logo,
 .topheader,
-.cards-list {
+.cards-list,
+.footer,
+.copyrights{
     margin:0 auto;
 }
 
@@ -93,6 +95,7 @@ a {
     display: inline-block;
 }
 .authorize__social{
+    display: inline-block;
     background: url(../img/sprites.png);
     background-repeat: no-repeat;
     width:15px;
@@ -102,31 +105,26 @@ a {
 }
 
 .authorize__social--fb {
-    display: inline-block;
     background-position: -0px -84px;
     background-repeat:no-repeat;
 }
 
 .authorize__social--tw {
-    display: inline-block;
     background-position: 0px -130px;
     background-repeat:no-repeat;
 }
 
 .authorize__social--g {
-    display: inline-block;
     background-position: 0px -109px;
     background-repeat:no-repeat;
 }
 
 .authorize__social--tum {
-    display: inline-block;
     background-position: 0px -155px;
     background-repeat:no-repeat;
 }
 
 .authorize__social--pin {
-    display: inline-block;
     background-position: 0px -59px;
     background-repeat:no-repeat;
 }
@@ -247,8 +245,13 @@ a.menu__link.menu__link-active:after {
 /**
  * card-styles
  */
+
+.cards-list__content {
+    text-align: justify;
+}
+
 .page__content {
-    padding: 45px 0px;
+    padding: 45px 0px 70px;
 }
 
 .card {
@@ -448,6 +451,193 @@ a.menu__link.menu__link-active:after {
 }
 
 
+
+/**
+ * footer
+ */
+
+.page__footer {
+    background-color: #212121;
+    color:#fff;
+    
+}
+
+.footer {
+    display: table;
+    padding: 60px 0px 10px;
+}
+    
+.footer__section {
+    display: table-cell;
+    vertical-align: top;
+    width: 32%;
+    padding:0px;
+}
+
+
+.footer__section:nth-child(2) {
+    padding: 0px 28px;
+}
+
+
+.footer__title {
+    font-size: 24px;
+}
+
+.about {
+    margin:20px 0px;
+}
+
+.description {
+    font-size:14px;
+    line-height: 1.8em;
+}
+
+.contacts__items {
+    display:inline-block;
+    padding: 4px 0px;
+        
+}
+
+.contacts__item {
+    display: inline-block;
+    position:relative;
+    width:55px;
+    height: 55px;
+    background-color: #181818;
+    text-align: center;
+    margin-right: 6px;
+}
+
+.item__link {
+    display: inline-block;
+    background: url(../img/sprites_2.png);
+    background-repeat: no-repeat;
+    width:23px;
+    height: 21px;
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -6px;
+}
+
+.item__link--fb {
+    background-position: 0 0;
+}
+
+.item__link--tw {
+    background-position: 0 -228px; 
+}
+
+.item__link--g {
+    background-position: 0 -57px; 
+    margin-left: -10px;
+}
+
+.item__link--tum{
+    background-position: 0 -171px; 
+}
+
+.item__link--pin{
+    background-position: 0 -114px; 
+    margin-left: -10px;
+}
+
+form {
+    margin: 20px 0px;
+}
+
+.form__field {
+    margin: 20px 0px 52px
+}
+
+.form__field:last-child {
+    margin: -14px 0px 0px;
+}
+
+input[type="text"],
+input[type="email"],
+ button {
+    width: 370px;
+    padding: 6px 0px;
+    box-sizing: border-box;
+    
+}
+
+input[type="text"],
+input[type="email"] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #9e9e9e;
+    font-size: 14px;
+}
+
+
+button {
+    background-color:#ffa726;
+    border:none;
+    border-radius:2px;
+    color:#fff;
+    text-transform: uppercase;
+    height: 40px;
+}
+
+
+.instagram {
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.instagram__item {
+    display: inline-block;
+    width:106px;
+    height: 111px;
+    background-color:yellow;
+    margin: 8px;
+}
+
+.break {
+    width:110px;
+    display: inline-block;
+    height: 0px;
+}
+
+.page__copyrights {
+    background-color:#000000;
+}
+
+.copyrights {
+    padding:24px 0px;
+    color:#fff;
+}
+
+.copyrights__vendor {
+    float: left;
+}
+
+.copyrights__other {
+    float:right;
+}
+
+.copyright__text {
+    text-transform: uppercase;
+}
+
+.other__link {
+    display: inline-block;
+    padding: 0px 12px;
+}
+
+.link__link {
+    color:#fff;
+    text-decoration: none;
+}
+
+
+
 /**
  * media queries
  */
@@ -466,7 +656,9 @@ a.menu__link.menu__link-active:after {
     .menu,
     .logo,
     .topheader,
-    .cards-list {
+    .cards-list,
+    .footer,
+    .copyrights{
     width:700px;  
   }
    
@@ -477,7 +669,9 @@ a.menu__link.menu__link-active:after {
   .menu,
   .logo,
   .topheader,    
-  .cards-list {
+  .cards-list,
+  .footer,
+  .copyrights{
     width: 800px;
   }
 }
@@ -487,7 +681,9 @@ a.menu__link.menu__link-active:after {
   .menu,    
   .logo,    
   .topheader,    
-  .cards-list {
+  .cards-list,
+  .footer,
+  .copyrights{
     width: 1170px;
   }
 }
