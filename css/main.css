@@ -47,7 +47,7 @@ a {
     max-width: 370px;
     display: inline-block;
     vertical-align: top;
-    padding: 35px 0px;
+    padding: 34px 0px;
     margin: 0px 25px -40px 0px;
 }
 
@@ -93,40 +93,37 @@ a {
 
 .authorize__item {
     display: inline-block;
+    vertical-align: middle;
 }
 .authorize__social{
     display: inline-block;
-    background: url(../img/sprites.png);
+    background: url(../img/sprites_2.png);
     background-repeat: no-repeat;
-    width:15px;
+    width:14px;
     height: 15px;
     text-decoration: none;
-    margin-left: 15px;
+    text-decoration: none;
+    margin-left: 13px;
 }
 
 .authorize__social--fb {
-    background-position: -0px -84px;
-    background-repeat:no-repeat;
+    background-position: -0px -329px;
 }
 
 .authorize__social--tw {
-    background-position: 0px -130px;
-    background-repeat:no-repeat;
+    background-position: 0px -416px;
 }
 
 .authorize__social--g {
-    background-position: 0px -109px;
-    background-repeat:no-repeat;
+    background-position: 0px -373px;
 }
 
 .authorize__social--tum {
-    background-position: 0px -155px;
-    background-repeat:no-repeat;
+    background-position: 0px -460px;
 }
 
 .authorize__social--pin {
-    background-position: 0px -59px;
-    background-repeat:no-repeat;
+    background-position: 0px -284px;
 }
 
 
@@ -160,17 +157,19 @@ a {
     padding: 20px 0px 25px;
 }
 
-.menu__item {
+.menu-list__item {
     position: relative;
     display: inline-block;
-    width: 78px;
-    margin-right: 21px;
 }
 
 .menu__link{
     text-transform: uppercase;
-    color:#212121;
-    font-size:15px;
+    color: #212121;
+    font-size: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0px 25px 0px 10px;
+    letter-spacing: 0.5px;
 }
 
 /*
@@ -184,9 +183,9 @@ a.menu__link.menu__link-active:after {
     display: inline-block;
     border-bottom: 3px solid #ffa726;
     position: absolute;
-    width: 75px;
+    width: 71px;
     top: 40px;
-    right: 4px;
+    right: 11px;
 }
 
 
@@ -251,7 +250,7 @@ a.menu__link.menu__link-active:after {
 }
 
 .page__content {
-    padding: 45px 0px 70px;
+    padding: 43px 0px 70px;
 }
 
 .card {
@@ -316,13 +315,13 @@ a.menu__link.menu__link-active:after {
 .card__link {
     border-bottom: 1px solid #e0e0e0;
     width: auto;
-    margin-top: -23px;
+    margin-top: -26px;
 }
 
 .link__link-more {
     display: inline-block;
-    padding: 8px 18px;
-    height: 20px;
+    padding: 8px 16px 8px 22px;
+    height: 21px;
     background: #fff;
     text-transform: uppercase;
     color: #f9b322;
@@ -337,12 +336,12 @@ a.menu__link.menu__link-active:after {
 }
 
 .card__footer {
-    padding: 30px 30px 24px;
+    padding: 42px 30px 24px;
 }
 
 .card__avatar-layout {
    float: left;
-   margin: 18px 12px 5px 0px;
+   margin: 7px 12px 5px 0px;
 }
 
 .avatar {
@@ -402,7 +401,7 @@ a.menu__link.menu__link-active:after {
 
 .card-list__pagination {
     width:100%;
-    margin: 66px 0px 0px 0px;
+    margin: 55px 0px 5px 0px;
 }
 
 .pagination {
@@ -560,7 +559,7 @@ form {
 
 input[type="text"],
 input[type="email"],
- button {
+ .button-submit {
     width: 370px;
     padding: 6px 0px;
     box-sizing: border-box;
@@ -576,15 +575,20 @@ input[type="email"] {
 }
 
 
-button {
+.button-submit {
     background-color:#ffa726;
     border:none;
     border-radius:2px;
     color:#fff;
     text-transform: uppercase;
     height: 40px;
+    cursor: pointer
 }
 
+.button-submit:hover,
+.button-submit:active {
+    background-color:#f09613;
+}
 
 .instagram {
     text-align: justify;
