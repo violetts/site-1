@@ -1,0 +1,45 @@
+body {
+    background-color:#fafafa;
+    margin:0px;
+    padding:0px;
+}
+
+body,
+p {
+     font-family: 'roboto', sans-serif;
+     font-size:14px;
+}
+
+p {
+    margin:0px;
+}
+
+h2 {
+    margin:0px;
+}
+
+ul,
+ol,
+li {
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+

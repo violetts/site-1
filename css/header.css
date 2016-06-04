@@ -1,0 +1,151 @@
+/**
+ * header styles
+ */
+
+.header__topheader {
+    background-color: #000000;
+    margin:0px;
+    padding: 10px 0px 5px;
+
+}
+
+.topheader__lang-switcher {
+    float: left;
+}
+
+.topheader__authorize {
+    float:right;
+}
+
+.authorize,
+.lang-switcher{
+    text-transform: uppercase;
+    font-size:12px;
+}
+
+
+.authorize__login,
+.authorize__social {
+    display: inline-block;
+}
+
+.link__item {
+    color:#fff;
+}
+
+.lang-switcher__link+.lang-switcher__link {
+    margin-left: 18px;
+}
+
+.login__link,
+.social__link {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.login__link+.login__link {
+    margin-right: 12px;
+}
+
+.social__link{
+    background: url(../img/sprites_2.png);
+    background-repeat: no-repeat;
+    width:14px;
+    height: 15px;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.social__link+.social__link {
+    margin-left: 14px;   
+}
+
+.social__link--fb {
+    background-position: -0px -330px;
+}
+
+.social__link--tw {
+    background-position: 0px -416px;
+}
+
+.social__link--g {
+    background-position: 0px -374px;
+}
+
+.social__link--tum {
+    background-position: 0px -461px;
+}
+
+.social__link--pin {
+    background-position: 0px -284px;
+}
+
+/**
+ * logo styles
+ */
+
+.header__logo {
+    text-align: center;
+    padding: 40px 0px 28px;
+    border-bottom: 1px solid #242735;    
+}
+
+.logo__book {
+    margin-right: 30px;
+}
+
+.logo__tagline {
+    color:#757575;
+    font-size:15px;
+    font-family: 'roboto_slabregular', sans-serif;
+    margin: 12px 0px;
+}
+
+/**
+ * menu styles
+ */
+
+.header__menu {
+    text-align: center;
+}
+
+.menu__link{
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #212121;
+    font-size: 15px;
+    line-height: 68px;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0px 2px 0px 38px;
+    letter-spacing: 0.5px;
+}
+
+.menu__link-active:after {
+    content: "";
+    border-bottom: 3px solid #ffa726;
+    position: absolute;
+    width: 100%;
+    top: 65px;
+    left: 22px;
+}
+
+.menu__link:hover:after,
+.menu__link:active{
+    content: "";
+    border-bottom: 3px solid #ffa726;
+    position: absolute;
+    width: 100%;
+    top: 65px;
+    left: 22px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+/**
+ * footer
+ */
+
+.footer {
+    background-color: #212121;
+    color:#fff;
+    padding: 32px 0px 55px;
+}
+
+.footer__section {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    padding:0px;
+}
+
+.info-block__title {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.about {
+    font-size:14px;
+    line-height: 1.8em;
+}
+
+.contacts__items {
+    display:inline-block;
+}
+
+.contacts__item {
+    display: inline-block;
+    position:relative;
+    width:55px;
+    height: 55px;
+    background-color: #181818;
+    text-align: center;
+    margin-right: 6px;
+}
+
+.item__link {
+    display: inline-block;
+    background: url(../img/sprites_2.png);
+    background-repeat: no-repeat;
+    width:23px;
+    height: 21px;
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -6px;
+}
+
+.item__link--fb {
+    background-position: 0 0;
+}
+
+.item__link--tw {
+    background-position: 0 -228px; 
+}
+
+.item__link--g {
+    background-position: 0 -57px; 
+    margin-left: -10px;
+}
+
+.item__link--tum{
+    background-position: 0 -171px; 
+}
+
+.item__link--pin{
+    background-position: 0 -114px; 
+    margin-left: -10px;
+}
+
+form {
+    margin: 20px 0px;
+}
+
+.subscribe-form__row {
+    margin: 20px 0px 52px
+}
+
+.subscribe-form__row:last-child {
+    margin: -14px 0px 0px;
+}
+
+.subscribe-form__field,
+.subscribe-form__button-submit {
+    width: 370px;
+    padding: 6px 0px;
+    box-sizing: border-box;
+    
+}
+
+.subscribe-form__field,
+.subscribe-form__button-submit {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #9e9e9e;
+    font-size: 14px;
+}
+
+.subscribe-form__button-submit {
+    background-color:#ffa726;
+    border:none;
+    border-radius:2px;
+    color:#fff;
+    text-transform: uppercase;
+    height: 40px;
+    cursor: pointer
+}
+
+.subscribe-form__button-submit:hover,
+.subscribe-form__button-submit:active {
+    background-color:#f09613;
+}
+
+.instagram__item {
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    width:106px;
+    height: 111px;
+    background-color:yellow;
+    margin: 8px;
+}
+
+.img_insta {
+    width:100%;
+}
+
+.footer__copyrights {
+    background-color:#000000;
+    padding:24px 0px;
+    color:#fff;
+}
+
+.copyrights__left {
+    float: left;
+}
+
+.copyrights__right {
+    float:right;
+}
+
+.copyright {
+    text-transform: uppercase;
+}
+
+.copyrights__link {
+    display: inline-block;
+    padding: 0px 12px;
+    color:#fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

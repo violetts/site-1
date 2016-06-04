@@ -7,457 +7,438 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
+<!--    <link rel="stylesheet" href="css/main.css">-->
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-<div class="page">
-     <div class="page__topheader ">
-         <div class="topheader clearfix">
-             <div class="topheader__lang-switcher">
-                <a href="" class="lang-switcher__item">eng</a>
-                 <a href="" class="lang-switcher__item">fra</a>
-                 <a href="" class="lang-switcher__item">vie</a>
-                 
-             </div>
-             <div class="topheader__authorize">
-                 <ul class="authorize">
-                     <li class="authorize__item">
-                         <a href="" class="authorize__login">sign up</a>
-                     </li>
-                     <span style="color:#fff">&#47</span>
-                      <li class="authorize__item">
-                 <a href="" class="authorize__login">sign in</a>
-                     </li>
-                     
-                     <li class="authorize__item">
-                         <a href="#" class="authorize__social authorize__social--fb"></a></li>
-                     <li class="authorize__item">
-                         <a href="#" class="authorize__social authorize__social--tw"></a></li>
-                     <li class="authorize__item">
-                         <a href="#" class="authorize__social authorize__social--g"></a></li>
-                     <li class="authorize__item">
-                         <a href="#" class="authorize__social authorize__social--tum"></a></li>
-                     <li class="authorize__item">
-                         <a href="#" class="authorize__social authorize__social--pin"></a></li>
-                 </ul>
-             </div>
-         </div>
-     </div>
-    
-    <div class="page__logo">
-        <div class="logo">
-            <span class="logo__book"><img src="img/logo__book.png" alt=""></span><span class="logo__title"><img src="img/logo__title.png" alt=""></span>
-            <p class="logo__tagline">Creative Blog with Material Design</p>
-        </div>    
-    </div>
-    
-<hr>
-    
-    <div class="page__menu">
-        <nav class="menu">
-            <ul class="menu-list">
-                <li class="menu-list__item"><a href="" class="menu__link menu__link-active">home</a></li>
-                <li class="menu-list__item"><a href="" class="menu__link">layout</a></li>
-                <li class="menu-list__item"><a href="" class="menu__link">features</a></li>
-                <li class="menu-list__item"><a href="" class="menu__link">categories</a></li>
-                <li class="menu-list__item"><a href="" class="menu__link">about</a></li>
-                <li class="menu-list__item"><a href="" class="menu__link">contact</a></li>
-                <li class="menu-list__item"><a href="" class="menu__link"><i class="menu__item--search fa fa-search" aria-hidden="true"></i></a></li>
-            </ul>
-        </nav>
-    </div>
-
-<div class="page__header">
+<header class="page__header">
     <div class="header">
-        <div class="header__slider" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/pic-003-5a4be205a950466984fe0276ba830411.jpg');background-size:cover;">
-            <a href="#" class="slider__nav slider__nav--left"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-            <a href="#" class="slider__nav slider__nav--right"><i class="fa fa-chevron-right" aria-hidden="true"></i>
-</a>
-            <div class="slider__tile">
-                <p class="tile__category">Life style</p>
-                <p class="tile__title">My Daily Reading</p>
+        <div class="header__topheader">
+            <div class="container clearfix">
+                <div class="topheader__lang-switcher">
+                    <div class="lang-switcher">
+                        <a href="" class="lang-switcher__link link__item">eng</a><a href="" class="lang-switcher__link link__item">fra</a><a href="" class="lang-switcher__link link__item">vie</a>
+                    </div>
+                </div>
+                <div class="topheader__authorize">
+                    <div class="authorize">
+                         <div class="authorize__login">
+                            <a href="" class="login__link link__item">sign up  /</a><a href="" class="login__link link__item">sign in</a>
+                         </div>
+                         <div class="authorize__social">
+                             <a href="#" class="social__link social__link--fb link__item"></a><a href="#" class="social__link social__link--tw link__item "></a><a href="#" class="social__link social__link--g link__item "></a><a href="#" class="social__link social__link--tum link__item "></a><a href="#" class="social__link social__link--pin link__item "></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__logo">
+            <div class="container">
+                <div class="logo">
+                    <span class="logo__book"><img src="img/logo__book.png" alt=""></span><span class="logo__title"><img src="img/logo__title.png" alt=""></span>
+                    <p class="logo__tagline">Creative Blog with Material Design</p>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu">
+            <div class="container">
+                <nav class="menu">
+                    <a href="" class="menu__link menu__link-active">home</a><a href="" class="menu__link">layout</a><a href="" class="menu__link">features</a><a href="" class="menu__link">categories</a><a href="" class="menu__link">about</a><a href="" class="menu__link">contact</a><a href="" class="menu__link"><i class="menu__item--search fa fa-search" aria-hidden="true"></i></a><a href="" class="menu__link"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </nav>
             </div>
         </div>
     </div>
-</div>
+</header>      
+
     
-<!--content aria-->
-<div class="page__content">
-       <div class="cards-list">
-        <ol class="cards-list__content">
-            <li class="cards-list__item">
-               <article class="card">
-                <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
-                </div>
-                <div class="card__icon card__icon--coffee card__icon--center">
-                  <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
-                </div>
-                <div class="card__content">
-                    <h2 class="content__title">My Daily Reading Lists</h2>
-                    <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
-                </div>
-                <div class="card__link">
-                    <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="card__footer clearfix">
-                    <div class="card__avatar-layout">
-                        <div class="avatar">
-                          <img src="img/enot.png" alt="avatar" class="avatar__img">
-                        </div>
-                    </div>
-                     <div class="card__meta">
-                         <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
-                        <ul class="meta__items">
-                            <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
-                            <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            </li>
-            
-            <li class="cards-list__item">
-               <article class="card">
-                <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
-                </div>
-                <div class="card__icon card__icon--coffee card__icon--center">
-                  <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
-                </div>
-                <div class="card__content">
-                    <h2 class="content__title">My Daily Reading Lists</h2>
-                    <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
-                </div>
-                <div class="card__link">
-                    <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="card__footer clearfix">
-                    <div class="card__avatar-layout">
-                        <div class="avatar">
-                          <img src="img/enot.png" alt="avatar" class="avatar__img">
-                        </div>
-                    </div>
-                     <div class="card__meta">
-                         <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
-                        <ul class="meta__items">
-                            <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
-                            <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            </li>
-            
-            <li class="cards-list__item">
-               <article class="card">
-                <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
-                </div>
-                <div class="card__icon card__icon--coffee card__icon--center">
-                  <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
-                </div>
-                <div class="card__content">
-                    <h2 class="content__title">My Daily Reading Lists</h2>
-                    <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
-                </div>
-                <div class="card__link">
-                    <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="card__footer clearfix">
-                    <div class="card__avatar-layout">
-                        <div class="avatar">
-                          <img src="img/enot.png" alt="avatar" class="avatar__img">
-                        </div>
-                    </div>
-                     <div class="card__meta">
-                         <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
-                        <ul class="meta__items">
-                            <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
-                            <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            </li>
-            
-            <li class="cards-list__item">
-               <article class="card">
-                <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
-                </div>
-                <div class="card__icon card__icon--coffee card__icon--center">
-                  <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
-                </div>
-                <div class="card__content">
-                    <h2 class="content__title">My Daily Reading Lists</h2>
-                    <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
-                </div>
-                <div class="card__link">
-                    <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="card__footer clearfix">
-                    <div class="card__avatar-layout">
-                        <div class="avatar">
-                          <img src="img/enot.png" alt="avatar" class="avatar__img">
-                        </div>
-                    </div>
-                     <div class="card__meta">
-                         <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
-                        <ul class="meta__items">
-                            <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
-                            <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            </li>
-            
-            <li class="cards-list__item">
-               <article class="card">
-                <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
-                </div>
-                <div class="card__icon card__icon--coffee card__icon--center">
-                  <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
-                </div>
-                <div class="card__content">
-                    <h2 class="content__title">My Daily Reading Lists</h2>
-                    <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
-                </div>
-                <div class="card__link">
-                    <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="card__footer clearfix">
-                    <div class="card__avatar-layout">
-                        <div class="avatar">
-                          <img src="img/enot.png" alt="avatar" class="avatar__img">
-                        </div>
-                    </div>
-                     <div class="card__meta">
-                         <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
-                        <ul class="meta__items">
-                            <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
-                            <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            </li>
-            
-            <li class="cards-list__item">
-               <article class="card">
-                <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
-                </div>
-                <div class="card__icon card__icon--coffee card__icon--center">
-                  <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
-                </div>
-                <div class="card__content">
-                    <h2 class="content__title">My Daily Reading Lists</h2>
-                    <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
-                </div>
-                <div class="card__link">
-                    <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="card__footer clearfix">
-                    <div class="card__avatar-layout">
-                        <div class="avatar">
-                          <img src="img/enot.png" alt="avatar" class="avatar__img">
-                        </div>
-                    </div>
-                     <div class="card__meta">
-                         <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
-                        <ul class="meta__items">
-                            <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
-                            <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            </li>
-            
-            <li class="cards-list__item">
-               <article class="card">
-                <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
-                </div>
-                <div class="card__icon card__icon--coffee card__icon--center">
-                  <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
-                </div>
-                <div class="card__content">
-                    <h2 class="content__title">My Daily Reading Lists</h2>
-                    <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
-                </div>
-                <div class="card__link">
-                    <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="card__footer clearfix">
-                    <div class="card__avatar-layout">
-                        <div class="avatar">
-                          <img src="img/enot.png" alt="avatar" class="avatar__img">
-                        </div>
-                    </div>
-                     <div class="card__meta">
-                         <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
-                        <ul class="meta__items">
-                            <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
-                            <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            </li>
-            
-            <li class="cards-list__item">
-               <article class="card">
-                <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
-                </div>
-                <div class="card__icon card__icon--coffee card__icon--center">
-                  <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
-                </div>
-                <div class="card__content">
-                    <h2 class="content__title">My Daily Reading Lists</h2>
-                    <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
-                </div>
-                <div class="card__link">
-                    <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="card__footer clearfix">
-                    <div class="card__avatar-layout">
-                        <div class="avatar">
-                          <img src="img/enot.png" alt="avatar" class="avatar__img">
-                        </div>
-                    </div>
-                     <div class="card__meta">
-                         <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
-                        <ul class="meta__items">
-                            <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
-                            <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            </li>
-            
-            <li class="cards-list__item">
-               <article class="card">
-                <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
-                </div>
-                <div class="card__icon card__icon--coffee card__icon--center">
-                   <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
-                </div>
-                <div class="card__content">
-                    <h2 class="content__title">My Daily Reading Lists</h2>
-                    <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
-                </div>
-                <div class="card__link">
-                    <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="card__footer clearfix">
-                    <div class="card__avatar-layout">
-                        <div class="avatar">
-                          <img src="img/enot.png" alt="avatar" class="avatar__img">
-                        </div>
-                    </div>
-                     <div class="card__meta">
-                         <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
-                        <ul class="meta__items">
-                            <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
-                            <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            </li>
-            <li class="break" style="display:inline-block;max-width:370px;height:0px;"></li>
-        </ol>
-    
-     
-<!--pagination-->
-  <div class="card-list__pagination">
-     <div class="pagination">
-          <a class="pagination__arrow" href="#"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-        <ol class="pagination__numbers">
-           <li class="pagination__number pagination__number--active"><a href="#" class="pagination__link">1</a></li>
-           <li class="pagination__number"><a href="#" class="pagination__link">2</a></li>
-           <li class="pagination__number"><a href="#" class="pagination__link">3</a></li>
-        </ol>
-         <a class="pagination__arrow" href="#" class="pagination__link"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-    
-<!--page footer    -->
-    
-    <div class="page__footer">
-           <div class="footer">
-        <div class="footer__section footer__section--about">
-            <p class="footer__title">About Us</p>
-            <div class="about">
-            <div class="about__descrption">
-                <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis. </p>
-            </div>
-            </div>
-            <p class="footer__title">Connect with Us</p>
-           <div class="about">
-            <div class="about__contacts">
-                <ul class="contacts__items">
-                <li class="contacts__item">
-                  <a href="#" class="item__link item__link--fb"></a>    
-                </li>
-                <li class="contacts__item">
-                  <a href="#" class="item__link item__link--tw"></a>
-                </li>
-                <li class="contacts__item">
-                   <a href="#" class="item__link item__link--g"></a>
-                </li>
-                <li class="contacts__item contacts__item--tum">
-                  <a href="#" class="item__link item__link--tum"></a>      
-                </li>
-                <li class="contacts__item contacts__item--pin">
-                  <a href="#" class="item__link item__link--pin"></a>
-                </li>
-            </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer__section footer__section--form">
-          <p class="footer__title">Daily Newsletters</p>
-            <form action="">
-            <div class="form__field">
-              <label><input type="text" name="name" placeholder="Name"></label>
-            </div>
-            <div class="form__field">
-              <label><input type="email" name="email" placeholder="Email"></label>
-            </div>
-             <div class="form__field">
-              <button type="submit" class="button-submit">Subscribe</button>
-                </div>
-            </form>
-        </div>
-        <div class="footer__section footer__section--instagram">
-          <p class="footer__title">Photos on Instagram</p>
-            <div class="instagram">
-                <div class="instagram__item" style="background:url('img/bank.jpg');background-repeat:no-repeat;background-size:cover;background-position:center;"></div>
-                <div class="instagram__item" style="background:url('img/rosegarden.jpg');background-repeat:no-repeat;background-size:cover;background-position:center;"></div>
-                <div class="instagram__item" style="background:url('img/resegarden_gate.jpg');background-repeat:no-repeat;background-size:cover;background-position:center;"></div>
-               <div class="instagram__item" style="background:url('img/portobello.jpg');background-repeat:no-repeat;background-size:cover;background-position:center;"></div>
-                <div class="instagram__item" style="background:url('img/seattle.jpg');background-repeat:no-repeat;background-size:cover;background-position:center;"></div>
-                <div class="instagram__item" style="background:url('img/baden.jpg');background-repeat:no-repeat;background-size:cover;background-position:center;"></div>
-                <div class="break"></div>
-            </div>
-            
+<main class="page__content"> 
+    <div class="content__screen">
+        <div class="container">
+            <figure class="screen" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/pic-003-5a4be205a950466984fe0276ba830411.jpg');background-size:cover;">
+                <figcaption class="screen__tile">
+                    <p class="tile__category">Life style</p>
+                    <p class="tile__title">My Daily Reading</p>
+                </figcaption>
+            </figure>
         </div>
     </div>
+    <div class="content__cards-list">         
+        <div class="container">
+            <ol class="cards-list">
+                <li class="cards-list__item">
+                    <article class="card">
+                        <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
+                        </div>
+                        <div class="card__icon card__icon--coffee card__icon--center">
+                            <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="content__title">My Daily Reading Lists</h2>
+                            <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
+                        </div>
+                        <div class="card__link">
+                            <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card__footer clearfix">
+                            <div class="card__avatar-layout">
+                                <div class="avatar">
+                                    <img src="img/enot.png" alt="avatar" class="avatar__img">
+                                </div>
+                            </div>
+                            <div class="card__meta">
+                                <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
+                                <ul class="meta__items">
+                                    <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
+                                    <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="cards-list__item">
+                    <article class="card">
+                        <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
+                        </div>
+                        <div class="card__icon card__icon--coffee card__icon--center">
+                            <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="content__title">My Daily Reading Lists</h2>
+                            <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
+                        </div>
+                    <div class="card__link">
+                        <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="card__footer clearfix">
+                        <div class="card__avatar-layout">
+                            <div class="avatar">
+                            <img src="img/enot.png" alt="avatar" class="avatar__img">
+                            </div>
+                        </div>
+                        <div class="card__meta">
+                            <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
+                            <ul class="meta__items">
+                                <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
+                                <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </article>
+                </li>
+                <li class="cards-list__item">
+                    <article class="card">
+                        <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
+                        </div>
+                        <div class="card__icon card__icon--coffee card__icon--center">
+                            <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="content__title">My Daily Reading Lists</h2>
+                            <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
+                        </div>
+                        <div class="card__link">
+                            <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card__footer clearfix">
+                            <div class="card__avatar-layout">
+                                <div class="avatar">
+                                    <img src="img/enot.png" alt="avatar" class="avatar__img">
+                                </div>
+                            </div>
+                            <div class="card__meta">
+                                <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
+                                <ul class="meta__items">
+                                    <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
+                                    <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="cards-list__item">
+                    <article class="card">
+                        <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
+                        </div>
+                        <div class="card__icon card__icon--coffee card__icon--center">
+                        <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="content__title">My Daily Reading Lists</h2>
+                            <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
+                        </div>
+                        <div class="card__link">
+                            <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card__footer clearfix">
+                            <div class="card__avatar-layout">
+                                <div class="avatar">
+                                    <img src="img/enot.png" alt="avatar" class="avatar__img">
+                                </div>
+                            </div>
+                            <div class="card__meta">
+                                <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
+                                <ul class="meta__items">
+                                    <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
+                                    <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="cards-list__item">
+                    <article class="card">
+                        <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
+                        </div>
+                        <div class="card__icon card__icon--coffee card__icon--center">
+                            <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="content__title">My Daily Reading Lists</h2>
+                            <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
+                        </div>
+                        <div class="card__link">
+                            <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card__footer clearfix">
+                            <div class="card__avatar-layout">
+                                <div class="avatar">
+                                    <img src="img/enot.png" alt="avatar" class="avatar__img">
+                                </div>
+                            </div>
+                        <div class="card__meta">
+                            <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
+                            <ul class="meta__items">
+                                <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
+                                <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="cards-list__item">
+                    <article class="card">
+                        <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
+                        </div>
+                        <div class="card__icon card__icon--coffee card__icon--center">
+                            <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="content__title">My Daily Reading Lists</h2>
+                            <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
+                        </div>
+                        <div class="card__link">
+                            <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card__footer clearfix">
+                            <div class="card__avatar-layout">
+                                <div class="avatar">
+                                <img src="img/enot.png" alt="avatar" class="avatar__img">
+                                </div>
+                            </div>
+                            <div class="card__meta">
+                                <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
+                                <ul class="meta__items">
+                                    <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
+                                    <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="cards-list__item">
+                    <article class="card">
+                        <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
+                        </div>
+                        <div class="card__icon card__icon--coffee card__icon--center">
+                            <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="content__title">My Daily Reading Lists</h2>
+                            <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
+                        </div>
+                        <div class="card__link">
+                            <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card__footer clearfix">
+                            <div class="card__avatar-layout">
+                                <div class="avatar">
+                                    <img src="img/enot.png" alt="avatar" class="avatar__img">
+                                </div>
+                            </div>
+                            <div class="card__meta">
+                                <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
+                                <ul class="meta__items">
+                                    <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
+                                    <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="cards-list__item">
+                    <article class="card">
+                        <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
+                        </div>
+                        <div class="card__icon card__icon--coffee card__icon--center">
+                            <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="content__title">My Daily Reading Lists</h2>
+                            <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
+                        </div>
+                        <div class="card__link">
+                            <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card__footer clearfix">
+                            <div class="card__avatar-layout">
+                                <div class="avatar">
+                                    <img src="img/enot.png" alt="avatar" class="avatar__img">
+                                </div>
+                            </div>
+                            <div class="card__meta">
+                                <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
+                                <ul class="meta__items">
+                                    <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
+                                    <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="cards-list__item">
+                    <article class="card">
+                        <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
+                        </div>
+                        <div class="card__icon card__icon--coffee card__icon--center">
+                            <i class="card__icon-img fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="content__title">My Daily Reading Lists</h2>
+                            <p class="content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ab aut alias saepe, nemo ducimus iusto culpa nulla odio nostrum quas laboriosam voluptatibus, maiores, obcaecati.</p>
+                        </div>
+                        <div class="card__link">
+                            <a href="#" class="link__link-more">Continue Reading <i class="link__link-more--arow fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card__footer clearfix">
+                            <div class="card__avatar-layout">
+                                <div class="avatar">
+                                    <img src="img/enot.png" alt="avatar" class="avatar__img">
+                                </div>
+                            </div>
+                            <div class="card__meta">
+                                <p class="meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
+                                <ul class="meta__items">
+                                    <li class="meta__item"><i class="meta__item-heart fa fa-heart" aria-hidden="true"></i> 10 favorites <i class="meta__item-comment fa fa-comment" aria-hidden="true"></i> 12 comments</li>
+                                    <li class="meta__item"><i class="meta__item-comment-tag fa fa-tag" aria-hidden="true"></i> life style, friends, wonderful</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ol>
+        <div class="card-list__pagination">
+            <div class="pagination">
+                <a class="pagination__arrow" href="#"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                <ol class="pagination__numbers">
+                    <li class="pagination__number pagination__number--active"><a href="#" class="pagination__link">1</a></li><li class="pagination__number"><a href="#" class="pagination__link">2</a></li><li class="pagination__number"><a href="#" class="pagination__link">3</a></li>
+                </ol>
+                <a class="pagination__arrow" href="#" class="pagination__link"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            </div>
+            </div>
+        </div>
     </div>
-    <div class="page__copyrights">
-      <div class="copyrights clearfix">
-          <div class="copyrights__vendor"><p class="copyright__text">paper-clean blog wordpress theme with material design</p></div>
-          <div class="copyrights__other">
-              <ul class="other">
-                  <li class="other__link"><a href="" class="link__link">Help</a></li>
-                  <li class="other__link"><a href="" class="link__link">Terms</a></li>
-                  <li class="other__link"><a href="" class="link__link">About</a></li>
-                  <li class="other__link"><a href="" class="link__link">Contact</a></li>
-              </ul>
+</main>
+    
+<footer class="page__footer">    
+    <div class="footer">
+           <div class="container">
+                <div class="footer__section">
+                    <section class="info-block">
+                      <h3 class="info-block__title">About Us</h3>
+                      <div class="info-block__content">
+                        <p class="about">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis. </p>
+                    </div>
+                    </section>   
+                    <section class="info-block">
+                        <h3 class="info-block__title">Connect with Us</h3>
+                            <div class="info-block__content">
+                                <div class="contacts">
+                                    <ul class="contacts__items">
+                                        <li class="contacts__item">
+                                          <a href="#" class="item__link item__link--fb"></a>    
+                                        </li><li class="contacts__item">
+                                          <a href="#" class="item__link item__link--tw"></a>
+                                        </li><li class="contacts__item">
+                                           <a href="#" class="item__link item__link--g"></a>
+                                        </li><li class="contacts__item contacts__item--tum">
+                                          <a href="#" class="item__link item__link--tum"></a>      
+                                        </li><li class="contacts__item contacts__item--pin">
+                                          <a href="#" class="item__link item__link--pin"></a>
+                                        </li>
+                                    </ul>
+                                </div>  
+                            </div>
+                    </section>
+                </div>
+                <div class="footer__section">
+                    <section class="info-block">
+                        <h3 class="info-block__title">Daily Newsletters</h3>
+                        <div class="info-block__content">
+                            <form action="" class="subscribe-form">
+                                <div class="subscribe-form__row">
+                                  <label>
+                                      <input class="subscribe-form__field" type="text" name="name" placeholder="Name"></label>
+                                </div>
+                                <div class="subscribe-form__row">
+                                  <label>
+                                      <input class="subscribe-form__field" type="email" name="email" placeholder="Email"></label>
+                                </div>
+                                <div class="subscribe-form__row">
+                                  <button class="subscribe-form__button-submit" type="submit" >Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </section>    
+                </div>
+                <div class="footer__section">
+                     <h3 class="info-block__title">Photos on Instagram</h3>
+                         <div class="info-block__content">
+                            <div class="instagram">
+                                <div class="instagram__item">
+                                    <img class="img_insta" src="img/bank.jpg" alt="">
+                                </div>
+                                <div class="instagram__item">
+                                    <img class="img_insta" src="img/rosegarden.jpg" alt="">
+                                </div>
+                                <div class="instagram__item">
+                                    <img class="img_insta" src="img/resegarden_gate.jpg" alt="">
+                                </div>
+                                <div class="instagram__item">
+                                     <img class="img_insta" src="img/portobello.jpg" alt="">
+                                </div>
+                                <div class="instagram__item">
+                                    <img class="img_insta" src="img/seattle.jpg" alt="">
+                                </div>
+                                <div class="instagram__item">
+                                    <img class="img_insta" src="img/baden.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>     
+                </div> 
+          </div>           
+     </div>
+    <div class="footer__copyrights">
+      <div class="container clearfix">
+          <div class="copyrights__left"><p class="copyright">paper-clean blog wordpress theme with material design</p></div>
+          <div class="copyrights__right">
+                  <a href="" class="copyrights__link">Help</a><a href="" class="copyrights__link">Terms</a><a href="" class="copyrights__link">About</a><a href="" class="copyrights__link">Contact</a>
           </div>
         </div>
     </div>
-</div>
+</footer>
 </body>
 </html>
