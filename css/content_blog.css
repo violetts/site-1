@@ -1,0 +1,157 @@
+/**
+ * page content styles 
+ */
+.content__screen {
+    background-color:#757575;
+    padding:60px 0px;
+    margin-bottom:44px;
+}
+
+.screen {
+    height: 704px;
+    position: relative;
+    margin:0px;
+}
+
+
+.screen__tile {
+    background-color: rgba(94, 94, 94, 0.68);
+    padding: 30px;
+    color:#fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.tile__category {
+    font-size: 12px;
+    margin:0px;
+}
+
+.tile__title {
+    font-family: 'roboto_slabregular', sans-serif;
+    font-size: 20px;
+    margin:0px;
+}
+
+/**
+ * card-styles
+ */
+
+.content__about {
+    padding:30px 0px 68px;
+}
+
+.about__description {
+    font-size:15px;
+    line-height: 1.9em;
+}
+
+.about__quote {
+    border:1px solid #b9b9b9;
+    background: #fff;
+    margin:23px 0px;
+}
+
+.quote__text {
+    font-size: 22px;
+    line-height: 1.6em;
+    position: relative;
+}
+
+.quote__text:before {
+    content: "";
+    background: url(../img/quote_img.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    width: 153px;
+    height: 150px;
+    left: -71px;
+    top: 9px;
+}
+
+.quote {
+    padding:20px;
+    padding: 20px 6px 27px 102px;
+}
+
+.about__title {
+    font-size:24px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'roboto_slabregular', sans-serif;
+}
+
+
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content:"";
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+/**
+ * pagination styles
+ */
+
+.about__social {
+    width:100%;
+    margin: 32px 0px 5px 0px;
+}
+
+.social {
+    text-align: center;
+    font-size:24px;
+}
+
+.social-group {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 40px;
+}
+
+.social-group__item {
+    display:inline-block;
+    background: url(../img/sprites_2.png);
+    background-repeat: no-repeat;
+    background-color:#b9b9b9;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    line-height: 58px;
+    text-align: center;
+}
+
+.social-group__item-fb {
+    background-position: 24px 17px;
+}
+
+.social-group__item-tw {
+    background-position: 21px -209px;
+}
+
+.social-group__item-gplus {
+    background-position: 20px -38px;
+}
+
+.social-group__item-pin {
+    background-position: 20px -96px;
+}
+
+
+.social-group__item + .social-group__item {
+    margin-left: 20px;
+}
+
+.social-group__item:hover {
+    background-color: #ffa726;
+}
+
+
+
+

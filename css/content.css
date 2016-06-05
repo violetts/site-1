@@ -26,11 +26,14 @@
 
 .tile__category {
     font-size: 12px;
+    margin:0px;
+    
 }
 
 .tile__title {
     font-family: 'roboto_slabregular', sans-serif;
     font-size: 20px;
+    margin:0px;
 }
 
 /**

@@ -68,7 +68,7 @@
     background-position: 0px -416px;
 }
 
-.social__link--g {
+.social__link--gplus {
     background-position: 0px -374px;
 }
 
@@ -132,7 +132,7 @@
 }
 
 .menu__link:hover:after,
-.menu__link:active{
+.menu__link:active:after{
     content: "";
     border-bottom: 3px solid #ffa726;
     position: absolute;
