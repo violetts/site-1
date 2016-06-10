@@ -1,0 +1,26 @@
+.quote {
+    padding: 20px 6px 29px 102px;
+    border:1px solid #b9b9b9;
+    box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.75);
+}
+
+.quote:before {
+    content: "";
+    background: url(../img/quote_img.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    width: 153px;
+    height: 150px;
+    left: 32px;
+    top: 30px;
+}
+
+.quote__text {
+    font-size: 20px;
+    line-height: 1.7em;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'roboto_slabregular', sans-serif;
+}

@@ -1,0 +1,12 @@
+.lang-switcher{
+    text-transform: uppercase;
+    font-size:12px;
+}
+
+.lang-switcher__link {
+    color:#fff;
+}
+
+.lang-switcher__link+.lang-switcher__link {
+    margin-left: 18px;
+}

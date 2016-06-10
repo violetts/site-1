@@ -1,0 +1,43 @@
+.pagination {
+    text-align: center;
+    font-size:24px;
+}
+
+.pagination__numbers {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 40px;
+}
+
+.pagination__arrow {
+    color:#ffa726;
+}
+
+.pagination__link {
+    color:#333;
+}
+
+.pagination__number {
+    display:inline-block;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    line-height: 58px;
+    text-align: center;
+}
+
+.pagination__number + .pagination__number {
+    margin-left: 10px;
+}
+
+.pagination__number--active {
+    background-color: #ffa726;
+}
+
+.pagination__number--active .pagination__link {
+    color:#fff;
+}
+
+.pagination__item-arrow {
+    vertical-align: middle
+}

@@ -1,0 +1,208 @@
+.page {
+    background-color:#fafafa;
+    margin:0px;
+    padding:0px;
+    min-width: 1170px;
+}
+
+.page,
+p {
+     font-family: 'roboto', sans-serif;
+     font-size:14px;
+}
+
+p {
+    margin:0px;
+    padding: 0px;
+}
+
+h1,h2,h3,h4{
+    margin:0px;
+    padding:0px
+}
+
+ul,
+ol,
+li {
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin:0 auto;
+}
+
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content:"";
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+/**
+ * header
+ */
+.header__topheader {
+    background-color: #000000;
+    margin:0px;
+    padding: 10px 0px 5px;
+}
+
+.topheader__left {
+    float: left;
+}
+
+.topheader__right {
+    float:right;
+}
+
+.header__logo {
+    text-align: center;
+    padding: 40px 0px;
+    border-bottom: 1px solid #242735;    
+}
+
+.header__menu {
+    text-align: center;
+}
+
+/**
+ * content
+ */
+.content__screen {
+    background-color:#757575;
+    padding:60px 0px;
+}
+
+.cards-list__content {
+    margin: 0px 0px -28px -25px;
+}
+
+.content__cards-list {
+    padding: 80px 0px;
+}
+
+/**
+ * manifesto
+ */
+.content__screen-manifesto {
+    background-color: #757575;
+    padding: 0px;
+}
+
+.content__manifesto {
+    padding:70px 0px;
+}
+
+.manifesto__quote {
+    background: #fff;
+    margin:23px 0px;
+    position: relative;
+}
+
+.manifesto__social {
+    width: 100%;
+    margin: 23px 0px 5px 0px;
+    text-align: center;
+}
+
+/**
+ * categories
+ */
+
+.content__screen-categories {
+    padding: 0px;
+    background-color: #757575;
+}
+
+.content__categories {
+    padding:80px 0px 68px;
+}
+
+.categories {
+    display: inline-block;
+    margin: 0px 0px -28px -25px;
+}
+
+/**
+ * content
+ */
+.card-list__pagination {
+    width:100%;
+    margin: 55px 0px 5px 0px;
+}
+
+/**
+ * footer
+ */
+
+.footer {
+    background-color: #212121;
+    color:#fff;
+    padding: 58px 0px 78px;
+}
+
+.instagram {
+    margin: 0px 0px -8px -8px;
+}
+
+.footer__copyrights {
+    background-color:#000000;
+    padding:24px 0px;
+    color:#fff;
+}
+
+.copyrights__left {
+    float: left;
+}
+
+.copyrights__right {
+    float:right;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width:360px;  
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__section {
+    width:100%;  
+  }
+}
+
+@media (min-width: 768px) {
+    .container {
+    width:700px;  
+  }
+}
+
+@media (min-width: 980px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+
+
+
+
+
+
+

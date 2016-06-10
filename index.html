@@ -7,39 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-<!--    <link rel="stylesheet" href="css/main.css">-->
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/lang_switcher.css">
+    <link rel="stylesheet" href="css/authorize.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <link rel="stylesheet" href="css/screen_tile.css">
+    <link rel="stylesheet" href="css/card-list__item.css">
+    <link rel="stylesheet" href="css/pagination.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/footer__section.css">
+    <link rel="stylesheet" href="css/info-block.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    <link rel="stylesheet" href="css/subscribe-form.css">
+    <link rel="stylesheet" href="css/instagram.css">
+    <link rel="stylesheet" href="css/copyrights.css">
 </head>
-<body>
+<body class="page">
 <header class="page__header">
     <div class="header">
         <div class="header__topheader">
+            <div class="topheader">
             <div class="container clearfix">
-                <div class="topheader__lang-switcher">
+                <div class="topheader__left">
                     <div class="lang-switcher">
-                        <a href="" class="lang-switcher__link link__item">eng</a><a href="" class="lang-switcher__link link__item">fra</a><a href="" class="lang-switcher__link link__item">vie</a>
+                        <a class="lang-switcher__link" href="">eng</a><!----><a class="lang-switcher__link" href="">fra</a><!----><a href="" class="lang-switcher__link ">vie</a>
                     </div>
                 </div>
-                <div class="topheader__authorize">
+                <div class="topheader__right">
                     <div class="authorize">
-                         <div class="authorize__login">
-                            <a href="" class="login__link link__item">sign up  /</a><a href="" class="login__link link__item">sign in</a>
+                         <div class="login">
+                            <a class="login__link" href="">sign up</a>/<a class="login__link" href="">sign in</a>
                          </div>
-                         <div class="authorize__social">
-                             <a href="#" class="social__link social__link--fb link__item"></a><a href="#" class="social__link social__link--tw link__item "></a><a href="#" class="social__link social__link--gplus link__item "></a><a href="#" class="social__link social__link--tum link__item "></a><a href="#" class="social__link social__link--pin link__item "></a>
+                 <div class="social-login">
+                         <a class="social-login__link social-login__link--fb" href="#"></a><!----><a class="social-login__link social-login__link--tw" href="#"></a><!----><a class="social-login__link social-login__link--gplus" href="#"></a><!----><a class="social-login__link social-login__link--tum" href="#"></a><!----><a href="#" class="social-login__link social-login__link--pin"></a>
                         </div>
                     </div>
                 </div>
-            </div>
+               </div>
+            </div>    
         </div>
         <div class="header__logo">
             <div class="container">
                 <div class="logo">
-                    <span class="logo__book"><img src="img/logo__book.png" alt=""></span><span class="logo__title"><img src="img/logo__title.png" alt=""></span>
+                   <img class="logo__img" src="img/logo.png" alt="">
                     <p class="logo__tagline">Creative Blog with Material Design</p>
                 </div>
             </div>
@@ -47,13 +60,14 @@
         <div class="header__menu">
             <div class="container">
                 <nav class="menu">
-                    <a href="" class="menu__link menu__link-active">home</a><a href="" class="menu__link">layout</a><a href="" class="menu__link">features</a><a href="" class="menu__link">categories</a><a href="about.html" class="menu__link">about</a><a href="" class="menu__link">contact</a><a href="" class="menu__link"><i class="menu__item--search fa fa-search" aria-hidden="true"></i></a><a href="" class="menu__link"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+    <a class="menu__link menu__link-active" href="index.html">home</a><a class="menu__link" href="">layout</a><!----><a class="menu__link" href="" >features</a><!----><a class="menu__link" href="categories.html">categories</a><!----><a class="menu__link" href="about.html" >about</a><!----><a class="menu__link" href="">contact</a><!----><i class="menu__link--search fa fa-search" aria-hidden="true"></i><!----><i class="menu__link--search--ellipse fa fa-ellipsis-v" aria-hidden="true"></i></a>
                 </nav>
             </div>
         </div>
     </div>
 </header>      
 <main class="page__content"> 
+  <div class="content">
     <div class="content__screen">
         <div class="container">
             <figure class="screen" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/pic-003-5a4be205a950466984fe0276ba830411.jpg');background-size:cover;">
@@ -66,7 +80,8 @@
     </div>
     <div class="content__cards-list">         
         <div class="container">
-            <ol class="cards-list">
+            <div class="cards-list">
+            <ol class="cards-list__content">
                 <li class="cards-list__item">
                     <article class="card">
                         <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
@@ -338,7 +353,7 @@
                     </article>
                 </li>
             </ol>
-        <div class="card-list__pagination">
+            <div class="card-list__pagination">
             <div class="pagination">
                 <a class="pagination__arrow" href="#"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
                 <ol class="pagination__numbers">
@@ -347,8 +362,11 @@
                 <a class="pagination__arrow" href="#" class="pagination__link"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
             </div>
             </div>
+            </div>
+        
         </div>
-    </div>
+     </div>
+   </div>        
 </main>
     
 <footer class="page__footer">    
@@ -364,21 +382,19 @@
                     <section class="info-block">
                         <h3 class="info-block__title">Connect with Us</h3>
                             <div class="info-block__content">
-                                <div class="contacts">
-                                    <ul class="contacts__items">
+                                    <ul class="contacts">
                                         <li class="contacts__item">
-                                          <a href="#" class="item__link item__link--fb"></a>    
-                                        </li><li class="contacts__item">
-                                          <a href="#" class="item__link item__link--tw"></a>
-                                        </li><li class="contacts__item">
-                                           <a href="#" class="item__link item__link--gplus"></a>
-                                        </li><li class="contacts__item contacts__item--tum">
-                                          <a href="#" class="item__link item__link--tum"></a>      
-                                        </li><li class="contacts__item contacts__item--pin">
-                                          <a href="#" class="item__link item__link--pin"></a>
+                                          <a class="item__link item__link--fb" href="#"></a>    
+                                        </li><!----><li class="contacts__item">
+                                          <a class="item__link item__link--tw" href="#"></a>
+                                        </li><!----><li class="contacts__item">
+                                           <a class="item__link item__link--gplus" href="#"></a>
+                                        </li><!----><li class="contacts__item contacts__item--tum">
+                                          <a class="item__link item__link--tum" href="#"></a>      
+                                        </li><!----><li class="contacts__item contacts__item--pin">
+                                          <a class="item__link item__link--pin" href="#"></a>
                                         </li>
                                     </ul>
-                                </div>  
                             </div>
                     </section>
                 </div>
@@ -407,22 +423,22 @@
                          <div class="info-block__content">
                             <div class="instagram">
                                 <div class="instagram__item">
-                                    <img class="img_insta" src="img/bank.jpg" alt="">
+                                    <img class="img_insta" src="img/img_1.jpg" alt="">
                                 </div>
                                 <div class="instagram__item">
-                                    <img class="img_insta" src="img/rosegarden.jpg" alt="">
+                                    <img class="img_insta" src="img/img_2.jpg" alt="">
                                 </div>
                                 <div class="instagram__item">
-                                    <img class="img_insta" src="img/resegarden_gate.jpg" alt="">
+                                    <img class="img_insta" src="img/img_3.jpg" alt="">
                                 </div>
                                 <div class="instagram__item">
-                                     <img class="img_insta" src="img/portobello.jpg" alt="">
+                                     <img class="img_insta" src="img/img_4.jpg" alt="">
                                 </div>
                                 <div class="instagram__item">
-                                    <img class="img_insta" src="img/seattle.jpg" alt="">
+                                    <img class="img_insta" src="img/img_5.png" alt="">
                                 </div>
                                 <div class="instagram__item">
-                                    <img class="img_insta" src="img/baden.jpg" alt="">
+                                    <img class="img_insta" src="img/img_6.jpg" alt="">
                                 </div>
                             </div>
                         </div>     

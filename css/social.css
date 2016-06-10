@@ -1,0 +1,43 @@
+.social {
+    font-size:24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 40px;
+}
+
+.social__item {
+    display:inline-block;
+    background: url(../img/sprites_2.png);
+    background-repeat: no-repeat;
+    background-color:#b9b9b9;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    line-height: 58px;
+    text-align: center;
+}
+
+.social__item-fb {
+    background-position: 24px 17px;
+}
+
+.social__item-tw {
+    background-position: 21px -209px;
+}
+
+.social__item-gplus {
+    background-position: 20px -38px;
+}
+
+.social__item-pin {
+    background-position: 20px -96px;
+}
+
+
+.social__item + .social__item {
+    margin-left: 20px;
+}
+
+.social__item:hover {
+    background-color: #ffa726;
+}
