@@ -1,3 +1,7 @@
+.categories {
+    display: inline-block;
+    margin: 0px 0px -28px -28px;
+}
 
 .categories__item {
     display:inline-block;
@@ -6,8 +10,9 @@
     height: 370px;
     background-color: #383838;
     cursor: pointer;
-    margin: 0px 0px 28px 25px;
+    margin: 0px 0px 28px 28px;
     text-align: center;
+    vertical-align: top;
 }
 
 .categories__item:hover {
@@ -18,36 +23,39 @@
     background-color: #ffa726;
 }
 
-.item-icon {
-    color: #fff;
+.categories__description {
     position: absolute;
-    top: 127px;
-    left: 152px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
 }
 
-.item {
+.categories__item-icon {
+    color: #fff;
+    display:block;
+}
+
+.categories__title {
     text-transform: uppercase;
     color:#fff;
     font-size: 24px;
-    line-height: 370px;
-    display: inline-block;
-    margin: 37px 0px;
 }
 
-.item-icon.fa.fa-camera.fa-5x {
+.categories__item-icon--photo {
     left: 140px;
 }
 
-.item-icon.fa.fa-headphones.fa-5x {
+.categories__item-icon--music {
     left: 155px;
 }
 
-.item-icon.fa.fa-plane.fa-5x {
+.categories__item-icon--travel {
     left: 161px;
     top: 137px;
 }
 
-.item-icon.fa.fa-users.fa-5x {
+.categories__item-icon--users {
     top: 118px;
     left: 148px;
 }

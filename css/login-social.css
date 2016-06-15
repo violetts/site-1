@@ -1,0 +1,38 @@
+.social-login {
+    display: inline-block;
+}
+
+.social-login__link{
+    display: inline-block;
+    background: url(../img/sprites_2.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    width:14px;
+    height: 15px;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.social-login__link + .social-login__link {
+    margin-left: 14px;   
+}
+
+.social-login__link--fb {
+    background-position: -0px -330px;
+}
+
+.social-login__link--tw {
+    background-position: 0px -416px;
+}
+
+.social-login__link--gplus {
+    background-position: 0px -374px;
+}
+
+.social-login__link--tum {
+    background-position: 0px -461px;
+}
+
+.social-login__link--pin {
+    background-position: 0px -284px;
+}

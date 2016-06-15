@@ -1,13 +1,18 @@
+.instagram {
+    margin: 0px 0px -8px -8px;
+}
+
 .instagram__item {
     display: inline-block;
     vertical-align: top;
     overflow: hidden;
     width:106px;
-    height: 111px;
+    height: 106px;
     background-color:yellow;
     margin: 0px 0px 8px 8px;
+    line-height: 0;
 }
 
-.img_insta {
+.instagram__item img {
     width:100%;
 }

@@ -7,6 +7,6 @@
     color:#fff;
 }
 
-.lang-switcher__link+.lang-switcher__link {
+.lang-switcher__link + .lang-switcher__link {
     margin-left: 18px;
 }

@@ -1,0 +1,23 @@
+
+.content__wrapper {
+    padding: 80px 0px;
+}
+
+.content__screen-manifesto {
+    background-color: #757575;
+    padding: 0;
+}
+
+.content__screen {
+    background-color:#757575;
+    padding:60px 0px;
+}
+
+.content__screen-categories {
+    padding: 0;
+    background-color: #757575;
+}
+
+.content__categories {
+    padding:80px 0px 68px;
+}

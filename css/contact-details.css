@@ -1,0 +1,39 @@
+.contact-details__title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'roboto_slabregular', sans-serif; 
+    padding: 0px 0px 50px;
+}
+
+.contact-details__wrapper {
+    margin:0px 0px 0px -30px;
+}
+
+.card-contacts {
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    background: #fff;
+    padding: 25px 32px;
+    box-sizing: border-box;
+    margin: 0px 0px 0px 30px;
+}
+
+.card-contacts__contacts-form {
+    margin:38px 0px 0px;
+}
+
+.card-contacts--map {
+    padding: 0;
+}
+
+.card-contacts__description {
+    font-size: 15px;
+    color:#616161;
+    line-height: 1.8em;
+}
+
+ .map__img{
+    display:block;
+}

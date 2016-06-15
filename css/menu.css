@@ -16,20 +16,20 @@
     content: "";
     display: none;
     position: absolute;
-    bottom:0px;
-    right: 0px;
-    left: 0px;
+    bottom:0;
+    right: 0;
+    left: 0;
     border-bottom: 3px solid #ffa726;
 }
 
-.menu__link-active:after,
+.menu__link--active:after,
 .menu__link:hover:after,
 .menu__link:active:after {
     display: block;
 }
 
-.menu__link--search,
-.menu__link--search--ellipse {
+.menu__search,
+.menu__off-canvas {
     position: relative;
     display: inline-block;
     color: #212121;

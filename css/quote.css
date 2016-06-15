@@ -2,6 +2,8 @@
     padding: 20px 6px 29px 102px;
     border:1px solid #b9b9b9;
     box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.75);
+    position: relative;
+    margin:0;
 }
 
 .quote:before {
@@ -10,8 +12,8 @@
     background-repeat: no-repeat;
     display: block;
     position: absolute;
-    width: 153px;
-    height: 150px;
+    width: 45px;
+    height: 35px;
     left: 32px;
     top: 30px;
 }
@@ -20,7 +22,7 @@
     font-size: 20px;
     line-height: 1.7em;
     position: relative;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     font-family: 'roboto_slabregular', sans-serif;
 }

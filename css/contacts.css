@@ -12,39 +12,3 @@
     margin-right: 6px;
 }
 
-.item__link {
-    display: inline-block;
-    background: url(../img/sprites_2.png);
-    background-repeat: no-repeat;
-    width:23px;
-    height: 21px;
-    text-decoration: none;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: -6px;
-}
-
-.item__link--fb {
-    background-position: 0 0;
-}
-
-.item__link--tw {
-    background-position: 0 -228px; 
-}
-
-.item__link--g {
-    background-position: 0 -57px; 
-    margin-left: -10px;
-}
-
-.item__link--tum{
-    background-position: 0 -171px; 
-}
-
-.item__link--pin{
-    background-position: 0 -114px; 
-    margin-left: -10px;
-}

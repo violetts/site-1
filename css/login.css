@@ -1,0 +1,15 @@
+.login {
+     display: inline-block;
+     color:#fff;
+}
+
+.login__link {
+    display: inline-block;
+    vertical-align: middle;
+    color:#fff;
+}
+
+
+.login__link + .login__link {
+    margin-right: 12px;
+}

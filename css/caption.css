@@ -1,4 +1,4 @@
-.screen__tile {
+.caption {
     background-color: rgba(94, 94, 94, 0.68);
     padding: 30px;
     color: #fff;
@@ -8,11 +8,11 @@
     box-sizing: border-box;
 }
 
-.tile__category {
+.caption__category {
     font-size: 12px;
 }
 
-.tile__title {
+.caption__title {
     font-family: 'roboto_slabregular', sans-serif;
     font-size: 20px;
 }

@@ -1,3 +1,11 @@
+.copyrights__left {
+    float: left;
+}
+
+.copyrights__right {
+    float:right;
+}
+
 .copyright {
     text-transform: uppercase;
 }

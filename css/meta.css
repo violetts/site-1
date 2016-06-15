@@ -1,0 +1,20 @@
+.meta__title {
+    font-size:12px;
+    margin-bottom: -1.5px;
+}
+
+.meta__item {
+    text-align: left;
+}
+
+.meta__item-heart {
+    padding: 0px 6px 0px 0px;
+}
+
+.meta__item-comment {
+    padding: 0px 6px 0px 26px;
+}
+
+.meta__item-comment-tag {
+    padding: 0px 8px 0px 0px;
+}

@@ -1,0 +1,18 @@
+.manifesto__description {
+    font-size:15px;
+    line-height: 1.9em;
+}
+
+.manifesto__quote {
+    background: #fff;
+    margin:23px 0px;
+    position: relative;
+}
+
+.manifesto__social {
+    width: 100%;
+    margin: 23px 0px 5px 0px;
+    text-align: center;
+}
+
+

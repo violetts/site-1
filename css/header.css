@@ -1,0 +1,15 @@
+.header__topheader {
+    background-color: #000000;
+    margin:0;
+    padding: 10px 0px 5px;
+}
+
+.header__logo {
+    text-align: center;
+    padding: 40px 0px;
+    border-bottom: 1px solid #242735;    
+}
+
+.header__menu {
+    text-align: center;
+}

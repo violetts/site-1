@@ -1,8 +1,19 @@
+.footer {
+    background-color: #212121;
+    color:#fff;
+    padding: 58px 0px 78px;
+}
+
 .footer__section {
     display: inline-block;
     vertical-align: top;
     width: 33.33333333%;
     padding: 0px 10px 0px 0px;
     box-sizing: border-box;
-    margin: 0px -4px 0px 0px;
+}
+
+.footer__copyrights {
+    background-color:#000000;
+    padding:24px 0px;
+    color:#fff;
 }

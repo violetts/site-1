@@ -1,0 +1,55 @@
+.form__row + .form__row {
+    margin-top: 40px;
+}
+
+.form__field {
+    width: 100%;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    color:#fff;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #9e9e9e;
+    font-size: 14px;
+}
+
+.form__button {
+    width: 100%;
+    box-sizing: border-box;
+    color:#fff;
+    border: none;
+    font-size: 14px;
+    background-color:#ffa726;
+    border-radius:2px;
+    text-transform: uppercase;
+    height: 40px;
+    cursor: pointer
+}
+
+.form__button--send {
+    width:120px;
+}
+
+.form__field--contacts {
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.form__row--contacts + .form__row--contacts {
+    margin-top: 23px;
+}
+
+.form__button--submit:hover,
+.form__button--submit:active {
+    background-color:#f09613;
+}
+
+.form__field-textarea {
+    border:1px solid #9e9e9e;
+    color:#9e9e9e;
+    margin: 10px 0px;
+}
+
+.form__label {
+    color:#9e9e9e;
+    font-size: 15px;
+}
