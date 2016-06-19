@@ -1,0 +1,60 @@
+.item-styles {
+    
+}
+
+.item-styles--header {
+    background: #212121;
+    color:#fff;
+    font-size: 20px;
+    height: 78px;
+    line-height: 78px;
+    padding: 0px 27px;
+}
+
+.item-styles--link {
+    border-top: 1px solid rgba(0, 0, 0, 0.17);
+    text-decoration: none;
+    cursor: pointer;
+    color: #616161;
+    font-size: 15px;
+    padding: 0px 66px;
+    position: relative;
+}
+
+
+
+.item-styles--link:before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    top: 30px;
+    left: 30px;
+}
+
+.item-styles--link-accordeon:before {
+    width: 17px;
+    height: 10px;
+    background-position: -10px -10px;
+}
+
+.item-styles--link-buttons:before {
+    width: 18px;
+    height: 12px;
+    background-position: -10px -40px;
+}
+
+.item-styles--link-icons:before {
+    width: 19px;
+    height: 16px;
+    background-position: -10px -72px;
+    top:27px
+}
+
+.item-styles--link-sliders:before {
+    width: 18px;
+    height: 13px;
+    background-position: -10px -108px;
+    top: 29px;
+}

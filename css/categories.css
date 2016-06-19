@@ -19,21 +19,17 @@
     background-color:#7fb7e5;   
 }
 
-.categories__featured {
+.categories__item--featured {
     background-color: #ffa726;
 }
 
 .categories__description {
     position: absolute;
+    color:#fff;
     top: 50%;
     left: 0;
     right: 0;
     transform: translateY(-50%);
-}
-
-.categories__item-icon {
-    color: #fff;
-    display:block;
 }
 
 .categories__title {
@@ -59,9 +55,3 @@
     top: 118px;
     left: 148px;
 }
-
-
-
-
-
-

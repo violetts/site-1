@@ -18,10 +18,13 @@
     <link rel="stylesheet" href="css/login-social.css">
     <link rel="stylesheet" href="css/logo.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/screen-buttons.css">
+    <link rel="stylesheet" href="css/breadcrumbs.css">
     <link rel="stylesheet" href="css/content.css">
-    <link rel="stylesheet" href="css/screen-categories.css">
-    <link rel="stylesheet" href="css/screen_tile.css">
-    <link rel="stylesheet" href="css/categories.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/menu-styles.css">
+    <link rel="stylesheet" href="css/item-styles.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/footer__section.css">
     <link rel="stylesheet" href="css/info-block.css">
@@ -52,7 +55,11 @@
                   <a class="login__link" href="#">sign up</a>/<a class="login__link" href="#">sign in</a>
                 </div>
                 <div class="social-login">
-                  <a class="social-login__link social-login__link--fb" href="#"></a><!----><a class="social-login__link social-login__link--tw" href="#"></a><!----><a class="social-login__link social-login__link--gplus" href="#"></a><!----><a class="social-login__link social-login__link--tum" href="#"></a><!----><a href="#" class="social-login__link social-login__link--pin"></a>
+                  <a class="social-login__link social-login__link--fb" href="#"></a><!--
+                --><a class="social-login__link social-login__link--tw" href="#"></a><!--
+                --><a class="social-login__link social-login__link--gplus" href="#"></a><!--
+                --><a class="social-login__link social-login__link--tum" href="#"></a><!--
+                --><a href="#" class="social-login__link social-login__link--pin"></a>
                 </div>
               </div>
             </div>
@@ -71,9 +78,9 @@
       <div class="container">
         <nav class="menu">
           <a class="menu__link" href="index.html">home</a><!--
-          --><a class="menu__link" href="#">layout</a><!--
+          --><a class="menu__link menu__link--active" href="styles.html">layout</a><!--
           --><a class="menu__link" href="#" >features</a><!--
-          --><a class="menu__link menu__link--active" href="categories.html">categories</a><!--
+          --><a class="menu__link" href="categories.html">categories</a><!--
           --><a class="menu__link" href="about.html" >about</a><!--
           --><a class="menu__link" href="#">contact</a><!--
           --><i class="menu__search fa fa-search" aria-hidden="true"></i><!--
@@ -85,50 +92,57 @@
   </header>      
   <main class="page__content"> 
     <div class="content">
-      <div class="content__screen-categories">
-        <figure class="screen-categories" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/pic-003-5a4be205a950466984fe0276ba830411.jpg');background-size:cover;">
-        </figure>
+      <div class="content__breadcrumbs">
+          <div class="container">
+            <div class="breadcrumbs">
+                <h1 class="breadcrumbs__title">Button</h1>
+                <a class="breadcrumbs__nav" href="#">Shortcodes</a>
+                <i class="breadcrumbs__nav breadcrumbs__separator fa fa-circle" aria-hidden="true"></i>
+                <a class="breadcrumbs__nav breadcrumbs__nav--active" href="#">Button</a>
+            </div>
+        </div>              
       </div>
-      <div class="content__wrapper">         
+      <div class="content__wrapper-styles">         
         <div class="container">
-          <div class="categories">
-            <a class="categories__item categories__item--featured">
-              <span class="categories__description">
-                <i class="categories__item-icon categories__item-icon--featured fa fa-star fa-5x" aria-hidden="true"></i>
-                <div class="categories__title" href="#">featured</div>
-              </span>
-            </a><!-
-           -><a class="categories__item">
-              <span class="categories__description">
-                <i class="categories__item-icon categories__item-icon--coffee fa fa-coffee fa-5x" aria-hidden="true"></i>
-                <div class="categories__title" href="#">life style</div> 
-              </span>    
-            </a><!--
-          --><a class="categories__item">
-              <span class="categories__description">
-                <i class="categories__item-icon categories__item-icon--users fa fa-users fa-5x" aria-hidden="true"></i>
-                <div class="categories__title" href="#">fashion</div>
-              </span>
-            </a><!--
-         --><a class="categories__item">
-              <span class="categories__description">
-                <i class="categories__item-icon categories__item-icon--photo fa fa-camera fa-5x" aria-hidden="true"></i>
-                <div class="categories__title" href="#">photography</div>
-              </span>
-            </a><!--
-          --><a class="categories__item">
-              <span class="categories__description">    
-                <i class="categories__item-icon categories__item-icon--music fa fa-headphones fa-5x" aria-hidden="true"></i>
-                <div class="categories__title" href="#">music</div>
-              </span>
-            </a><!--
-         --><a class="categories__item">
-              <span class="categories__description">
-                <i class="categories__item-icon categories__item-icon--travel fa fa-plane fa-5x" aria-hidden="true"></i>
-                <div class="categories__title" href="#">travel</div> 
-              </span>
-            </a>
-          </div>
+            <div class="styles">
+                <div class="styles styles__buttons">
+                    <div class="buttons">
+                        <h2 class="buttons__header">Material Buttons with Shadow</h2>
+                        <a class="button button--shadow button--orange" href="#">button</a>
+                        <a class="button button--shadow button--blue" href="#">button</a>
+                        <a class="button button--shadow button--violet" href="#">button</a>
+                        <a class="button button--shadow button--pink" href="#">button</a>
+                        <a class="button button--shadow button--green" href="#">button</a>
+                    </div>
+                    <div class="buttons">
+                        <h2 class="buttons__header">Material Buttons without Shadow</h2>
+                        <a class="button button--orange" href="#">button</a>
+                        <a class="button button--blue" href="#">button</a>
+                        <a class="button button--violet" href="#">button</a>
+                        <a class="button button--pink" href="#">button</a>
+                        <a class="button button--green" href="#">button</a>
+                    </div>
+                    <div class="buttons">
+                        <h2 class="buttons__header">Secondary Buttons</h2>
+                        <a class="button button--shadow" href="#">button</a>
+                        <a class="button button--shadow" href="#">button</a>
+                        <a class="button button--shadow" href="#">button</a>
+                        <a class="button button--shadow" href="#">button</a>
+                        <a class="button button--shadow" href="#">button</a>
+
+                    </div>
+                </div>
+                <div class="styles styles__menu-styles">
+                    <nav class="menu-styles">
+                        <div class="menu-styles__item-styles item-styles--header">Shortcodes</div>
+                        <a class="menu-styles__item-styles item-styles--link item-styles--link-accordeon" href="#">Accordion</a>
+                        <a class="menu-styles__item-styles item-styles--link item-styles--link-buttons" href="#">Buttons</a>
+                        <a class="menu-styles__item-styles item-styles--link item-styles--link-icons" href="#">Icons</a>
+                        <a class="menu-styles__item-styles item-styles--link item-styles--link-sliders" href="#">Post sliders</a>
+                    </nav>
+                </div>
+            </div>
+            
         </div>
       </div>
     </div>        

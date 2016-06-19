@@ -1,3 +1,10 @@
+.contact-details {
+    display: inline-block;
+    margin: 0px 0px 0px 30px;
+    vertical-align: top;
+    width: 47%;
+}
+
 .contact-details__title {
     font-size: 24px;
     text-align: center;
@@ -10,30 +17,12 @@
     margin:0px 0px 0px -30px;
 }
 
-.card-contacts {
-    display: inline-block;
-    vertical-align: top;
-    width: 47%;
+.contact-details__form {
     background: #fff;
-    padding: 25px 32px;
+    padding: 18px 32px 36px;
     box-sizing: border-box;
-    margin: 0px 0px 0px 30px;
 }
 
-.card-contacts__contacts-form {
-    margin:38px 0px 0px;
-}
-
-.card-contacts--map {
+.contact-details__map {
     padding: 0;
-}
-
-.card-contacts__description {
-    font-size: 15px;
-    color:#616161;
-    line-height: 1.8em;
-}
-
- .map__img{
-    display:block;
 }

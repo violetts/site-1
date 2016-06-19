@@ -1,4 +1,8 @@
-.link--more {
+.link {
+  
+}
+
+.link-more {
     display: inline-block;
     padding: 8px 16px 8px 22px;
     background: #fff;
@@ -10,7 +14,7 @@
     transform: translate(42%, 48%);
 }
 
-.link--arow {
+.link-more--arrow {
     padding-left: 5px;
 }
 

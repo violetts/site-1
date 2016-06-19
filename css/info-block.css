@@ -8,10 +8,11 @@
 
 .info-block__content {
     color: rgba(255, 255, 255, 0.7);
-    margin: 21px 0px;
+    
 }
 
 .info-block__title {
     font-size: 24px;
     font-weight: 300;
+    margin: 0px 0px 21px;
 }

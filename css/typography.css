@@ -1,0 +1,31 @@
+.breadcrumbs {
+    color: #fff;
+}
+
+.breadcrumbs__title {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'roboto_slabregular', sans-serif;
+    margin-bottom: 10px;
+}
+
+.breadcrumbs__nav {
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 12px; 
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.breadcrumbs__nav--active {
+    color: #f8a700;
+}
+
+.breadcrumbs__separator {
+    color: #f8a700;
+}
+
+.breadcrumbs__nav + .breadcrumbs__nav {
+    margin-left: 14px;
+}

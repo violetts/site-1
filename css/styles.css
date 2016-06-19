@@ -1,0 +1,15 @@
+.styles {
+    vertical-align: top;
+}
+.styles__buttons {
+    display: inline-block;
+    width:70%;
+    margin: 0px -24px 0px 0px;   
+        
+}
+
+.styles__menu-styles {
+    display: inline-block;
+    width: 30%;
+    padding: 12px 0px; 
+}
