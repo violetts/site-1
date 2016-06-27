@@ -3,13 +3,13 @@
 }
 
 .manifesto__description {
-    font-size:15px;
+    font-size: 15px;
     line-height: 1.9em;
 }
 
 .manifesto__quote {
     background: #fff;
-    margin:23px 0px;
+    margin: 23px 0px;
     position: relative;
 }
 

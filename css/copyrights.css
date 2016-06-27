@@ -7,7 +7,7 @@
 }
 
 .copyrights__right {
-    float:right;
+    float: right;
 }
 
 .copyright {
@@ -17,6 +17,6 @@
 .copyrights__link {
     display: inline-block;
     padding: 0px 12px;
-    color:#fff;
+    color: #fff;
     text-decoration: none;
 }

@@ -1,0 +1,12 @@
+.comment-box {
+    
+}
+
+.comment-box__text {
+    overflow: hidden;
+}
+
+.comment-box__title {
+    margin: 0 0 16px;
+}
+

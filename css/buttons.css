@@ -8,46 +8,6 @@
     font-family: 'roboto_slabregular', sans-serif;
 }
 
-
-.button {
-    display: inline-block;
-    height: 40px;
-    padding:0px 30px;
-    text-transform: uppercase;
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 2px;
-    background-color: rgb(255, 255, 255);
-    color:#757575;
-    line-height: 40px;
-    margin:0px 24px 0px 0px;
-}
-
-.button--shadow {
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
-}
-
-.button--orange {
-    background-color:#f8a700;
-    color: #fff;    
-}
-
-.button--blue {
-    background-color:#64b5f6;
-    color: #fff;    
-}
-
-.button--violet {
-    background-color:#64b5f6;
-    color: #fff;    
-}
-
-.button--pink {
-    background-color:#f06292;
-    color: #fff;    
-}
-
-.button--green {
-    background-color:#4db6ac;
-    color: #fff;    
+.buttons .button {
+    margin: 0px 24px 0px 0px;
 }

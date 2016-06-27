@@ -1,14 +1,14 @@
 .social {
-    font-size:24px;
+    font-size: 24px;
     display: inline-block;
     vertical-align: middle;
 }
 
 .social__item {
-    display:inline-block;
+    display: inline-block;
     background: url(../img/sprites_2.png);
     background-repeat: no-repeat;
-    background-color:#b9b9b9;
+    background-color: #b9b9b9;
     width: 58px;
     height: 58px;
     border-radius: 50%;

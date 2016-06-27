@@ -7,12 +7,12 @@ cards-list {
 }
 
 .card-list__pagination {
-    width:100%;
+    width: 100%;
     margin: 55px 0px 5px 0px;
 }
 
 .cards-list__item {
-    max-width: 370px;
+    width: 370px;
     display: inline-block;
     vertical-align: top;
     margin: 0px 0px 28px 25px;

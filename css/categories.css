@@ -4,9 +4,9 @@
 }
 
 .categories__item {
-    display:inline-block;
+    display: inline-block;
     position: relative;
-    width:370px;
+    width: 370px;
     height: 370px;
     background-color: #383838;
     cursor: pointer;
@@ -16,7 +16,7 @@
 }
 
 .categories__item:hover {
-    background-color:#7fb7e5;   
+    background-color: #7fb7e5;   
 }
 
 .categories__item--featured {
@@ -25,7 +25,7 @@
 
 .categories__description {
     position: absolute;
-    color:#fff;
+    color: #fff;
     top: 50%;
     left: 0;
     right: 0;
@@ -34,8 +34,9 @@
 
 .categories__title {
     text-transform: uppercase;
-    color:#fff;
+    color: #fff;
     font-size: 24px;
+    margin:10px 0 0 0;
 }
 
 .categories__item-icon--photo {

@@ -2,29 +2,39 @@
   
 }
 
+.form--inline {
+  margin: 0px -60px 0px 0px;
+}
+
 .form__row + .form__row {
     margin-top: 40px;
+}
+
+.form__row-inline {
+    display: inline-block;
+    margin: 0px 60px 0px 0px;
 }
 
 .form__field {
     width: 100%;
     padding: 8px 0px;
     box-sizing: border-box;
-    color:#fff;
+    color: #fff;
     background: transparent;
     border: none;
     border-bottom: 2px solid #cacaca;
     font-size: 14px;
+    color: #333;
 }
 
 .form__button {
     width: 100%;
     padding: 0px 10px;
     box-sizing: border-box;
-    color:#fff;
+    color: #fff;
     border: none;
     font-size: 14px;
-    border-radius:2px;
+    border-radius: 2px;
     text-transform: uppercase;
     height: 40px;
     cursor: pointer;
@@ -36,7 +46,7 @@
 }
 
 .form__button--orange {
-    background-color:#ffa726;
+    background-color: #ffa726;
 }
 
 .form__button--orange:hover,
@@ -45,15 +55,33 @@
 }
 
 .form.form--collapsed .form__button {
-    width:120px;
+    width: 120px;
 }
 
 .form--collapsed {
-    margin:36px 0px 0px;
+    margin: 36px 0px 0px;
 }
 
 .form--collapsed .form__field {
     border-bottom: 1px solid #cacaca;
+}
+
+.form--inline .form__field {
+    border-bottom: 1px solid #cacaca;
+}
+
+.form--inline textarea {
+    width: 1170px;
+    display: block;
+}
+
+.form--inline .form__button {
+    width: 120px;
+    display: block;
+}
+
+.form--inline .form__row {
+    width: 550px;
 }
 
 .form--collapsed .form__row + .form__row  {
@@ -61,13 +89,13 @@
 }
 
 .form__field-textarea {
-    border:1px solid #cacaca;
-    color:#9e9e9e;
+    border: 1px solid #cacaca;
+    color: #9e9e9e;
     margin: 10px 0px;
 }
 
 .form__label {
-    color:#9e9e9e;
+    color: #9e9e9e;
     font-size: 15px;
-    display:block;
+    display: block;
 }

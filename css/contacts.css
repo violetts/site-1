@@ -1,11 +1,11 @@
 .contacts {
-    display:inline-block;
+    display: inline-block;
 }
 
 .contacts__item {
     display: inline-block;
-    position:relative;
-    width:55px;
+    position: relative;
+    width: 55px;
     height: 55px;
     background-color: #181818;
     text-align: center;

@@ -1,8 +1,9 @@
-.contact-details {
+.contact-details__form,
+.contact-details__map {
     display: inline-block;
     margin: 0px 0px 0px 30px;
     vertical-align: top;
-    width: 47%;
+    width: 568px;
 }
 
 .contact-details__title {
@@ -13,8 +14,8 @@
     padding: 0px 0px 50px;
 }
 
-.contact-details__wrapper {
-    margin:0px 0px 0px -30px;
+.contact-details {
+    margin: 0px 0px 0px -30px;
 }
 
 .contact-details__form {

@@ -1,0 +1,18 @@
+.blog {
+    
+}
+
+.blog__title.title__h2 {
+    padding: 6px 0;
+}
+
+.blog-meta__item.meta__item {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.blog-meta__title.meta__title {
+    line-height: 2em;
+}
+
+

@@ -17,6 +17,29 @@
     color: #fff;
 }
 
+.breadcrumbs__nav:before {
+    content: "";
+    display: block;
+    position: relative;
+    border: 3px solid #fff;
+    background-color: #fff;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    bottom: 5px;
+    top: 11px;
+    right: 26px;
+}
+
+.breadcrumbs__nav:first-child:before {
+    content: "";
+    display: none;
+}
+
+.breadcrumbs__nav--active:before {
+    border: 3px solid #ffa726;
+    background-color: #ffa726;
+}
 
 .breadcrumbs__nav--active {
     color: #f8a700;
@@ -27,5 +50,5 @@
 }
 
 .breadcrumbs__nav + .breadcrumbs__nav {
-    margin-left: 14px;
+    margin-left: 43px;
 }

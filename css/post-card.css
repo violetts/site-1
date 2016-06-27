@@ -1,0 +1,14 @@
+.post-card {
+    
+}
+
+.post-card__content.card__content {
+    text-align: left;
+    padding: 0 30px 10px 30px;
+}
+
+.post-card__content.content__title {
+    text-align: left;
+}
+
+

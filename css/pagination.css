@@ -1,6 +1,6 @@
 .pagination {
     text-align: center;
-    font-size:24px;
+    font-size: 24px;
 }
 
 .pagination__numbers {
@@ -10,15 +10,15 @@
 }
 
 .pagination__arrow {
-    color:#ffa726;
+    color: #ffa726;
 }
 
 .pagination__link {
-    color:#333;
+    color: #333;
 }
 
 .pagination__number {
-    display:inline-block;
+    display: inline-block;
     width: 58px;
     height: 58px;
     border-radius: 50%;
@@ -35,9 +35,10 @@
 }
 
 .pagination__number--active .pagination__link {
-    color:#fff;
+    color: #fff;
 }
 
 .pagination__item-arrow {
     vertical-align: middle
 }
+

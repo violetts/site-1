@@ -1,0 +1,9 @@
+.link-reply {
+    color: #f9b322;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+    float: right;
+}

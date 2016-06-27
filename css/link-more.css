@@ -1,4 +1,4 @@
-.link {
+.link-more {
   
 }
 
@@ -14,7 +14,8 @@
     transform: translate(42%, 48%);
 }
 
-.link-more--arrow {
+.link-more__arrow {
     padding-left: 5px;
 }
+
 
