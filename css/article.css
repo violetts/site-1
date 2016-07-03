@@ -1,16 +1,3 @@
-.article__social.manifesto__social {
-    position: absolute;
-    bottom: -67px;
-}
-
-.article__item {
-    padding: 20px 0;
-}
-
-.article__list {
-    margin: 20px 60px;    
-}
-
 .post-cards-list.cards-list {
     margin: 0px 0px -28px -25px;
 }
@@ -28,7 +15,7 @@
     text-align: left;
 }
 
-.blog__title.title__h2 {
+.blog__title.title--h2 {
     padding: 6px 0;
 }
 

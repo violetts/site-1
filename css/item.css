@@ -34,3 +34,12 @@
     background-position: 0 -114px; 
     margin-left: -10px;
 }
+
+.item__number {
+    list-style-type: decimal;
+}
+
+.item__disc {
+    list-style-type: disc;
+}
+

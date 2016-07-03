@@ -1,0 +1,8 @@
+.paragraph.title--h3 {
+    padding: 25px 0;
+}
+
+.paragraph__copy {
+    font-size:15px;
+    line-height: 26px;
+}

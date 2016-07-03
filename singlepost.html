@@ -25,9 +25,12 @@
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/avatar.css">
     <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/paragraph.css">
     <link rel="stylesheet" href="css/manifesto.css">
     <link rel="stylesheet" href="css/social.css">
     <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/html-content.css">
     <link rel="stylesheet" href="css/post-cards.css">
     <link rel="stylesheet" href="css/post-card.css">
     <link rel="stylesheet" href="css/blog.css">
@@ -109,22 +112,28 @@
       <div class="content__breadcrumbs">
           <div class="container">
             <div class="breadcrumbs">
-                <h1 class="breadcrumbs__title">Button</h1>
-                <a class="breadcrumbs__nav" href="#">Shortcodes</a>
-                <a class="breadcrumbs__nav breadcrumbs__nav--active" href="#">Button</a>
+                <p class="breadcrumbs__title">Button</p>
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item">
+                        <a class="breadcrumbs__links" href="">Shortcodes</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs__item--active">
+                        <a class="breadcrumbs__links" href="">Button</a>
+                    </li>
+                </ul>
             </div>
         </div>              
       </div>
       <div class="content__wrapper-post">         
         <div class="container">
-        <div class="post post--long">
+        <div class="isle post--long">
             <div class="post__screen"></div>
             <div class="post__card card__icon card__icon--camera card__icon--center">
                 <i class="card__icon-img fa fa-camera fa-3x" aria-hidden="true"></i>
               </div>
             <div class="post__content">
                     <div class="blog">
-                        <h2 class="blog__title title__h2">My Daily Reading List</h2>
+                        <h2 class="blog__title title--h2">My Daily Reading List</h2>
                         <div class="blog__blog-meta card__meta">
                             <p class="blog-meta__title meta__title">Posted on <time datetime="2015-03-18T20:00:05">18th March 2015</time> by Mike Ross</p>
                             <ul class="blog-meta__items meta__items">
@@ -143,26 +152,26 @@
                             </ul>
                         </div>
                     </div>    
-                <div class="article">
-                    <p class="article__item paragraph__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim laborum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque. Lorem ipsum dolor sit amet.</p>
-                     <p class="article__item paragraph__copy">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
-                    <p class="article__item paragraph__copy">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
-                    <ul class="article__list list__item">
-                        <li class="item item__disc">
-                            <p class="paragraph__copy">Ech Park exercitation</p>
+                <div class="html-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim laborum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque. Lorem ipsum dolor sit amet.</p>
+                     <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+                    <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+                    <ul>
+                        <li>
+                            <p>Ech Park exercitation.</p>
                         </li>
-                        <li class="item item__disc">
-                            <p class="paragraph__copy">Consectetur adipiscing elit vtae elit libero.</p>
+                        <li>
+                            <p>Consectetur adipiscing elit vtae elit libero.</p>
                         </li>
-                        <li class="item item__disc">
-                            <p class="paragraph__copy">Nullam id dolor id eget lacinia odio posuere erat a ante.</p>
+                        <li>
+                            <p>Nullam id dolor id eget lacinia odio posuere erat a ante.</p>
                         </li>
-                        <li class="item item__disc">
-                            <p class="paragraph__copy">Integer posuere erat dapibus posuere velit.</p>
+                        <li>
+                            <p>Integer posuere erat dapibus posuere velit.</p>
                         </li>
                     </ul>
-                    <p class="article__item paragraph__copy">Nulla sed mi leo, sit amet molestie nulla. Phasellus lobortis blandit ipsum, at adipiscing eros porta quis. Phasellus in nisi ipsum, quis dapibus magna. Phasellus odio dolor, pretium sit amet aliquam a, gravida eget dui. Pellentesque eu ipsum et quam faucibus scelerisque vitae ut ligula. Ut luctus fermentum commodo. Mauris eget justo turpis, eget fringilla mi. Duis lobortis cursus mi vel tristique. Maecenas eu lorem hendrerit neque dapibus cursus id sit amet nisi. Proin rhoncus semper sem nec aliquet. Aenean lacinia bibendum nulla sed consectetur.</p>
-                    <div class="article__social manifesto__social">
+                    <p>Nulla sed mi leo, sit amet molestie nulla. Phasellus lobortis blandit ipsum, at adipiscing eros porta quis. Phasellus in nisi ipsum, quis dapibus magna. Phasellus odio dolor, pretium sit amet aliquam a, gravida eget dui. Pellentesque eu ipsum et quam faucibus scelerisque vitae ut ligula. Ut luctus fermentum commodo. Mauris eget justo turpis, eget fringilla mi. Duis lobortis cursus mi vel tristique. Maecenas eu lorem hendrerit neque dapibus cursus id sit amet nisi. Proin rhoncus semper sem nec aliquet. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <div class="html-content manifesto__social">
                         <div class="social">
                             <a class="social__item social__item-fb" href="#"></a>
                             <a class="social__item social__item-tw" href="#"></a>
@@ -173,7 +182,7 @@
                 </div>
             </div>    
         </div>
-        <div class="post post--short">
+        <div class="isle post--short">
             <div class="post__content">
                     <div class="card__avatar-layout">
                         <div class="post__img avatar">
@@ -181,7 +190,7 @@
                         </div>
                     </div>
                 <div class="comment-box">
-                    <h4 class="comment-box__title title__h4">Written by Mike Ross</h4>
+                    <h4 class="comment-box__title title--h4">Written by Mike Ross</h4>
                     <p class="comment-box__text paragraph__copy">
                         Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus vari laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
                     </p>
@@ -189,15 +198,15 @@
             </div>
         </div>
 
-        <div class="post post--transparent">
-            <h3 class="title__h3">You may also like</h3>
+        <div class="isle post--transparent">
+            <h3 class="title--h3">You may also like</h3>
             <ul class="post-cards__list cards-list">
                 <li class="post-cards__item cards-list__item">
                     <article class="card">
                         <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
                         </div>
                         <div class="post-card__content card__content">
-                            <h4 class="comment-box__title title__h4">Wonderful time with friends</h4>
+                            <h4 class="comment-box__title title--h4">Wonderful time with friends</h4>
                             <p class="paragraph__copy">
                                 <span class="details__date">Posted on 10th March 215</p></span>
                         </div>
@@ -208,17 +217,20 @@
                         <div class="card__header" style="background: url('https://assets0.bookmate.com/pipeline/landing/app_landing/books_bg_ru-5ed8f5309284a77adcb7d11841b5e177.jpg');background-size:cover;">
                         </div>
                         <div class="post-card__content card__content">
-                             <h4 class="comment-box__title title__h4">Wonderful time with friends</h4>
+                             <h4 class="comment-box__title title--h4">Wonderful time with friends</h4>
                             <p class="paragraph__copy">
-                                <span class="details__date">Posted on 10th March 215</span></p>
+                                <span class="details__date">Posted on 10th March 215</span>
+                            </p>
                         </div>
                     </article>
                 </li>
             </ul>
         </div> 
-        <div class="post post--transparent">
-            <h3 class="title__h3">3 Thoughts on "Single Post"</h3>
-            <div class="post post--short">
+        <ul class="isle">
+            <div class="b-comments__header">
+                <h3 class="title--h3">3 Thoughts on "Single Post"</h3>
+            </div>
+            <li class="isle b-comments">
                 <div class="post__content">
                     <div class="card__avatar-layout">
                         <div class="post__img avatar">
@@ -231,15 +243,16 @@
                             <span class="details__date">
                             <i class="fa fa-clock-o" aria-hidden="true"></i> 14<sup>th</sup> Feb 2015 at 9.00 am</span>
                         </div>
-                        <div class="comment-box__text">
-                            <p class="paragraph__copy">
-                            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus vari laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
-                            <a href="" class="link-reply">reply</a>
+                        <div class="html-content">
+                            <p>
+                            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus vari laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+                            </p>
+                            <a>reply</a>
                         </div>    
                     </div>
                 </div>
-            </div>        
-            <div class="post post--short post--narrow">
+            </li>        
+            <li class="isle b-comments post--narrow">
                 <div class="post__content">
                     <div class="card__avatar-layout">
                         <div class="post__img avatar">
@@ -252,16 +265,17 @@
                             <span class="details__date">
                             <i class="fa fa-clock-o" aria-hidden="true"></i> 14<sup>th</sup> Feb 2015 at 9.00 am</span>
                         </div>
-                        <div class="comment-box__text">
-                            <p class="paragraph__copy">
-                            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus vari laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
-                            <a href="" class="link-reply">reply</a>
+                        <div class="html-content">
+                            <p>
+                            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus vari laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+                            </p>
+                            <a>reply</a>
                         </div>
                     </div>    
                 </div>
-            </div>
-        </div>    
-        <div class="post post--short clearfix">
+            </li>
+        </ul>    
+        <div class="isle post--short clearfix">
             <div class="post__content">
                 <div class="card__avatar-layout">
                     <div class="post__img avatar">
@@ -274,33 +288,33 @@
                             <span class="details__date">
                                 <i class="fa fa-clock-o" aria-hidden="true"></i> 14<sup>th</sup> Feb 2015 at 9.00 am</span>
                     </div>
-                    <div class="comment-box__text">
-                        <p class="paragraph__copy">
+                    <div class="html-content">
+                        <p>
                         Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus vari laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
                         </p>
-                        <a href="" class="link-reply">reply</a>
+                        <a>reply</a>
                     </div>    
                 </div>
             </div>
         </div>
-         <div class="post post--transparent">
-            <h3 class="title__h3">Leave a comment</h3>
-                <span class="details__date">Your email address will not be published. Required fields are marked</span>
-                <form class="form form--inline" action="">
-                    <div class="form__row form__row-inline">
-                        <input class="form__field" type="text" name="name" placeholder="Name">
-                    </div>
-                    <div class="form__row form__row-inline">
-                        <input class="form__field" type="email" name="email" placeholder="Email">
-                    </div>
-                    <div class="form__row">
-                      <label for="message" class="form__label">Your Comment</label>
-                      <textarea name="message" rows="6" class="form__field form__field-textarea" id="message"></textarea>
-                    </div>
-                    <div class="form__row">
-                      <button class="form__button form__button--orange" type="submit">Send</button>
-                    </div>
-                </form>
+         <div class="isle post--transparent">
+            <h3 class="title--h3">Leave a comment</h3>
+            <span class="details__date">Your email address will not be published. Required fields are marked</span>
+            <form class="form form--inline" action="">
+                <div class="form__row form__row-inline">
+                    <input class="form__field" type="text" name="name" placeholder="Name">
+                </div>
+                <div class="form__row form__row-inline">
+                    <input class="form__field" type="email" name="email" placeholder="Email">
+                </div>
+                <div class="form__row">
+                  <label for="message" class="form__label">Your Comment</label>
+                  <textarea name="message" rows="6" class="form__field form__field-textarea" id="message"></textarea>
+                </div>
+                <div class="form__row">
+                  <button class="form__button form__button--orange" type="submit">Send</button>
+                </div>
+            </form>
         </div>
         </div>
       </div>
