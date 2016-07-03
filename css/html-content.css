@@ -3,6 +3,36 @@
     bottom: -67px;
 }
 
+.html-content h1 {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'roboto_slabregular', sans-serif;
+}
+
+.html-content h2 {
+    font-size: 34px;
+    font-weight: 400;
+    font-family: 'roboto_slabregular', sans-serif;
+}
+
+.html-content h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'roboto_slabregular', sans-serif;
+}
+
+.html-content h4 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'roboto_slabregular', sans-serif;
+}
+
+.html-content h5 {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'roboto_slabregular', sans-serif;
+}
+
 .html-content p {
     font-size:15px;
     line-height: 26px;
