@@ -1,8 +1,3 @@
-.html-content.manifesto__social {
-    position: absolute;
-    bottom: -67px;
-}
-
 .html-content h1 {
     font-size: 45px;
     font-weight: 400;
@@ -61,4 +56,8 @@
     float: right;
 }
 
+.html-content.manifesto__social {
+    position: absolute;
+    bottom: -67px;
+}
 

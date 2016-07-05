@@ -22,3 +22,10 @@
 .meta__item-comment-tag {
     padding: 0px 8px 0px 0px;
 }
+
+.meta__author {
+    font-size:12px;
+    color: #f9b322;
+    font-weight: 500;
+    padding: 0 10px 0 0;
+}

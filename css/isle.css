@@ -1,0 +1,74 @@
+.isle {
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.isle--no-bgr {
+    margin-bottom: 30px;
+    background-color: transparent;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.isle--right {
+    width: 940px;
+    float: right;
+}
+
+.isle--no-bgr .cards-list {
+    margin: 0px 0px -28px -25px;
+}
+
+.isle--no-bgr .cards-list__item {
+    width: 572px;
+}
+
+.isle--no-bgr .title--h3 {
+    margin: 60px 0 30px;
+}
+
+.isle__header .title--h2 {
+    padding: 6px 0;
+}
+
+.isle__header .meta__item {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.isle__content {
+    padding: 20px 29px 33px;
+}
+
+.isle__content .paragraph__copy{
+    overflow: hidden;
+}
+
+.isle__avatar {
+    width: 110px;
+    height: 110px;
+}
+
+.isle__card-header.card__header {
+    margin-bottom: 0;
+}
+
+.isle .card__icon--camera {
+   background-color: #aed581;
+   color: #fff;
+}
+
+.isle .card__icon--center {
+    margin: -54px auto -45px;
+}
+
+.isle-header .card__icon--center {
+    margin: -53px auto -5px;
+}
+
+.isle__meta.card__meta {
+    line-height: 2em;
+}
